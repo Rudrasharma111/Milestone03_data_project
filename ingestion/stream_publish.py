@@ -26,15 +26,34 @@ topic_path = publisher.topic_path(PROJECT_ID, TOPIC_ID)
 
 
 def get_already_processed_ids():
-    query = f"SELECT order_id FROM `{PROJECT_ID}.{RAW_DATASET}.orders_stream`"
+    """Returns order_ids that should NOT be re-published: ones already
+    landed in orders_stream (successfully processed), AND ones already
+    logged in orders_stream_errors (already tried and failed). Without
+    the second half, re-running this script against the same static test
+    file re-publishes the same bad rows every time, and since each
+    error_id is derived from the full message (which includes a
+    fresh event_timestamp), each re-run silently piles up NEW duplicate
+    error rows instead of being recognized as "already tested"."""
+    good_query = f"SELECT order_id FROM `{PROJECT_ID}.{RAW_DATASET}.orders_stream`"
+    error_query = f"""
+        SELECT DISTINCT JSON_EXTRACT_SCALAR(raw_row, '$.order_id') AS order_id
+        FROM `{PROJECT_ID}.{RAW_DATASET}.orders_stream_errors`
+        WHERE source_system = 'stream'
+    """
+    ids = set()
     try:
-        rows = bq_client.query(query).result()
-        ids = {r.order_id for r in rows}
-        logger.info(f"Found {len(ids)} order_id(s) already present in raw.orders_stream")
-        return ids
+        rows = bq_client.query(good_query).result()
+        ids |= {r.order_id for r in rows}
     except Exception as e:
         logger.warning(f"Could not read existing stream table (first run?): {e}")
-        return set()
+    try:
+        rows = bq_client.query(error_query).result()
+        ids |= {r.order_id for r in rows if r.order_id}
+    except Exception as e:
+        logger.warning(f"Could not read existing stream errors table: {e}")
+    logger.info(f"Found {len(ids)} order_id(s) already present in orders_stream or orders_stream_errors")
+    return ids
+
 
 
 def read_stream_orders():

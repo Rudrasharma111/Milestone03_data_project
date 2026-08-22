@@ -64,6 +64,8 @@ class OrderRecord(BaseModel):
 
 
 def _error_row_id(raw_row: str) -> str:
+    # md5 of the raw line -> same bad row always gets the same id,
+    # this is what lets us de-dupe errors below
     return hashlib.md5(raw_row.encode("utf-8")).hexdigest()
 
 
@@ -172,20 +174,34 @@ def merge_into_bigquery(gcs_uri, table_name, merge_keys, columns):
 def load_errors_to_bigquery(bad_rows, error_table):
     if not bad_rows:
         return
-    table_id = f"{PROJECT_ID}.{RAW_DATASET}.{error_table}"
-    job_config = bigquery.LoadJobConfig(
-        write_disposition=bigquery.WriteDisposition.WRITE_APPEND,
-        schema=[
-            bigquery.SchemaField("error_id", "STRING", mode="REQUIRED"),
-            bigquery.SchemaField("raw_row", "STRING"),
-            bigquery.SchemaField("error_reason", "STRING"),
-            bigquery.SchemaField("source_system", "STRING"),
-            bigquery.SchemaField("logged_at", "TIMESTAMP"),
-        ],
-    )
-    job = bq_client.load_table_from_json(bad_rows, table_id, job_config=job_config)
-    job.result()
-    logger.info(f"Logged {len(bad_rows)} bad rows to {table_id}")
+    stage_table = f"{PROJECT_ID}.{RAW_DATASET}._stg_{error_table}"
+    tgt_table = f"{PROJECT_ID}.{RAW_DATASET}.{error_table}"
+
+    err_schema=[
+        bigquery.SchemaField("error_id", "STRING", mode="REQUIRED"),
+        bigquery.SchemaField("raw_row", "STRING"),
+        bigquery.SchemaField("error_reason", "STRING"),
+        bigquery.SchemaField("source_system", "STRING"),
+        bigquery.SchemaField("logged_at", "TIMESTAMP"),
+    ]
+
+    jc = bigquery.LoadJobConfig(write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE, schema=err_schema)
+    j = bq_client.load_table_from_json(bad_rows, stage_table, job_config=jc)
+    j.result()
+
+    # was doing WRITE_APPEND directly before, kept dumping the same bad rows every re-run
+    # switched to merge on error_id so repeat runs dont keep adding the same 10 rows agian
+    merge_sql = f"""
+        MERGE `{tgt_table}` T
+        USING `{stage_table}` S
+        ON T.error_id = S.error_id
+        WHEN NOT MATCHED THEN
+        INSERT (error_id, raw_row, error_reason, source_system, logged_at)
+        VALUES (S.error_id, S.raw_row, S.error_reason, S.source_system, S.logged_at)
+    """
+    bq_client.query(merge_sql).result()
+    bq_client.delete_table(stage_table, not_found_ok=True)
+    logger.info(f"Logged {len(bad_rows)} bad rows to {tgt_table}")
 
 
 REFERENCE_SOURCES = {
