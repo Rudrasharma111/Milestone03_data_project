@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: m3-ecom
+    schema: raw
+    tables:
+      - name: orders_batch
+      - name: orders_stream
+      - name: customers
+      - name: products
+      - name: campaigns

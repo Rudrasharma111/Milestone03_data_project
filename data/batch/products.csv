@@ -1,0 +1,1201 @@
+product_id,category,subcategory,brand,season_tag,mrp,profit_margin_pct,supplier_name,stock_level
+1,Electronics,Mobile,Sony,Festive,29776.71,14.0,Lata LLC,888
+2,Electronics,TV,LG,Festive,49485.3,12.31,"Acharya, Khare and Naik",875
+3,Electronics,Laptop,Xiaomi,Festive,84179.37,10.2,"Sagar, Mitter and Shan",346
+4,Electronics,TV,Sony,Festive,21391.04,14.19,"Varghese, Ramakrishnan and Basak",813
+5,Electronics,Mobile,LG,Festive,32132.99,13.93,Narayanan Inc,725
+6,Electronics,TV,Sony,Festive,84998.61,16.15,Mannan Group,377
+7,Electronics,Laptop,Sony,Festive,83099.32,12.82,"Karan, Soman and Banik",636
+8,Electronics,Laptop,Samsung,Festive,81224.94,13.3,"Bail, Rajan and Dugar",245
+9,Electronics,TV,Samsung,Festive,60639.73,15.08,Dhaliwal-Pillai,1150
+10,Electronics,Mobile,Samsung,Festive,8871.29,15.68,"Bhatti, Babu and Borra",762
+11,Electronics,Laptop,Xiaomi,Festive,67544.32,11.88,"Shankar, Shanker and Toor",609
+12,Electronics,Mobile,LG,Festive,18371.33,12.47,Nath Ltd,832
+13,Electronics,Laptop,LG,Festive,61172.07,12.75,"Arya, Sengupta and Kashyap",113
+14,Electronics,TV,LG,Festive,72629.61,13.58,"Sastry, Mittal and Contractor",567
+15,Electronics,TV,LG,Festive,35746.99,16.23,Sha-Baria,1475
+16,Electronics,Mobile,Samsung,Festive,32687.18,10.33,Deep PLC,336
+17,Electronics,Mobile,LG,Festive,35129.29,15.74,"Kuruvilla, Chanda and Shere",620
+18,Electronics,TV,LG,Festive,24282.07,16.5,Wason-Shukla,1286
+19,Electronics,TV,LG,Festive,33276.64,16.08,Vasa-Bora,439
+20,Electronics,Laptop,Samsung,Festive,90067.02,14.33,Kanda LLC,1263
+21,Electronics,TV,LG,Festive,18109.24,11.06,Kala Group,767
+22,Electronics,Mobile,Xiaomi,Festive,33956.16,16.86,Ravi and Sons,235
+23,Electronics,TV,Sony,Festive,34723.25,12.19,Cherian-Morar,603
+24,Electronics,Laptop,Xiaomi,Festive,68127.76,16.76,Mahajan-Madan,410
+25,Electronics,Mobile,LG,Festive,12482.0,11.32,Raval-Krish,566
+26,Electronics,Laptop,LG,Festive,59790.12,10.07,Divan-Bali,434
+27,Electronics,Smart Watch,Xiaomi,All Season,8181.05,13.42,Sheth-Apte,122
+28,Electronics,Mobile,Xiaomi,Festive,18777.86,17.94,Krishnan-Ray,259
+29,Electronics,TV,Samsung,Festive,22509.59,16.93,Bava PLC,78
+30,Electronics,TV,boAt,Festive,65401.94,17.29,"Ratta, Ram and Soni",989
+31,Electronics,Laptop,Samsung,Festive,50795.94,13.34,"Venkataraman, Bains and Raja",578
+32,Electronics,Smart Watch,Xiaomi,All Season,5754.67,15.9,Tata PLC,326
+33,Electronics,TV,boAt,Festive,68747.05,11.65,"Prashad, Khalsa and Nagar",546
+34,Electronics,Smart Watch,Xiaomi,All Season,10281.15,12.21,Jha-Dey,214
+35,Electronics,TV,Xiaomi,Festive,36932.85,14.76,Dasgupta-Bhandari,324
+36,Electronics,Laptop,Samsung,Festive,71214.77,15.38,Tank-Wagle,890
+37,Electronics,Laptop,boAt,Festive,85837.34,17.64,"Joshi, Kumar and Srinivasan",169
+38,Electronics,Smart Watch,LG,All Season,14353.68,16.55,Subramanian-Hayre,920
+39,Electronics,TV,Sony,Festive,53741.15,11.97,Hegde-Vora,302
+40,Electronics,Smart Watch,Xiaomi,All Season,22011.12,15.48,Bali-Batta,90
+41,Electronics,Laptop,boAt,Festive,48294.41,11.17,"Bhatt, Mander and Pant",1097
+42,Electronics,Mobile,Xiaomi,Festive,48443.2,15.03,Sama Ltd,1194
+43,Electronics,Smart Watch,LG,All Season,14362.5,16.68,Krishnan-Bahri,99
+44,Electronics,TV,Xiaomi,Festive,73650.34,14.34,Vohra and Sons,1001
+45,Electronics,Laptop,Samsung,Festive,105717.42,16.03,"Bhavsar, Saxena and Swaminathan",378
+46,Electronics,TV,Samsung,Festive,49773.49,17.88,"Dora, Johal and Kakar",1124
+47,Electronics,TV,Samsung,Festive,72540.1,12.62,Savant PLC,94
+48,Electronics,Smart Watch,Xiaomi,All Season,9319.26,11.96,Uppal-Dash,669
+49,Electronics,Laptop,LG,Festive,96381.25,17.2,Kant-Narayan,828
+50,Electronics,Smart Watch,Xiaomi,All Season,11087.67,14.24,Prabhakar-Basak,40
+51,Electronics,Smart Watch,LG,All Season,13010.85,14.19,"Bali, Biswas and Bhasin",93
+52,Electronics,Laptop,Xiaomi,Festive,71212.31,11.72,Saha-Grover,127
+53,Electronics,Laptop,boAt,Festive,46484.82,17.99,Palla-Balan,1272
+54,Electronics,Mobile,Sony,Festive,28688.15,16.58,"Subramanian, Lall and Solanki",629
+55,Electronics,TV,boAt,Festive,16725.57,16.98,Gandhi and Sons,359
+56,Electronics,Mobile,Sony,Festive,26809.25,14.04,Hegde-Randhawa,255
+57,Electronics,Mobile,Xiaomi,Festive,18467.65,16.2,Batta Inc,392
+58,Electronics,Mobile,Samsung,Festive,23038.23,17.48,Brahmbhatt-Chad,91
+59,Electronics,TV,Xiaomi,Festive,42425.67,16.34,"Khurana, Garg and Saxena",575
+60,Electronics,Laptop,boAt,Festive,91463.36,17.62,"Pal, Sharaf and Basak",554
+61,Electronics,TV,Xiaomi,Festive,38396.7,16.71,Pingle LLC,211
+62,Electronics,TV,LG,Festive,52605.45,15.93,"Bedi, Nadig and Parikh",296
+63,Electronics,TV,Samsung,Festive,21473.82,10.87,Kaur-Bala,73
+64,Electronics,Mobile,Xiaomi,Festive,23860.64,11.29,Kohli Group,363
+65,Electronics,Smart Watch,LG,All Season,6841.05,12.05,"Divan, Patel and Gokhale",549
+66,Electronics,Laptop,boAt,Festive,74892.94,12.85,Rajan-Dugar,334
+67,Electronics,Smart Watch,Xiaomi,All Season,12365.77,17.43,Bumb LLC,127
+68,Electronics,Smart Watch,Samsung,All Season,6561.98,13.77,Palla-Bora,1301
+69,Electronics,Mobile,Sony,Festive,30303.85,12.89,Hora Inc,513
+70,Electronics,TV,Xiaomi,Festive,30727.62,13.39,"Ranganathan, Jha and Char",175
+71,Electronics,Mobile,Samsung,Festive,43392.9,11.93,Nori and Sons,902
+72,Electronics,Mobile,Samsung,Festive,47658.65,17.85,Kala and Sons,431
+73,Electronics,Mobile,Samsung,Festive,31112.1,16.42,Sidhu-Rattan,887
+74,Electronics,Smart Watch,Samsung,All Season,6045.26,15.25,"Kadakia, Prabhu and Hari",1339
+75,Electronics,Laptop,boAt,Festive,34709.06,17.55,Kapur-Shankar,1026
+76,Electronics,Laptop,Xiaomi,Festive,68574.65,13.67,Toor-Issac,745
+77,Electronics,Mobile,Sony,Festive,46501.34,17.24,Chakrabarti Group,548
+78,Electronics,Smart Watch,Samsung,All Season,16746.78,11.73,"Ben, Thaker and Iyengar",308
+79,Electronics,Laptop,Xiaomi,Festive,47180.49,16.79,Madan Inc,280
+80,Electronics,Mobile,Sony,Festive,16658.21,13.09,"Basak, Warrior and Sura",760
+81,Electronics,Laptop,Sony,Festive,51169.91,15.58,Devi and Sons,672
+82,Electronics,Smart Watch,LG,All Season,7839.85,12.94,"Kapoor, Mani and Sarkar",528
+83,Electronics,Laptop,Samsung,Festive,90094.02,12.94,Yohannan PLC,839
+84,Electronics,TV,Sony,Festive,53451.64,16.39,Bora-Ben,392
+85,Electronics,Laptop,LG,Festive,65577.25,10.17,Bora-Jaggi,102
+86,Electronics,Smart Watch,Sony,All Season,12318.46,17.69,Gupta PLC,540
+87,Electronics,Smart Watch,boAt,All Season,13752.65,14.67,Virk-Iyer,40
+88,Electronics,TV,Samsung,Festive,16751.69,14.83,Ramakrishnan-Nori,694
+89,Electronics,Smart Watch,Samsung,All Season,11172.41,12.7,"Tailor, Choudhary and Deshmukh",187
+90,Electronics,Smart Watch,Sony,All Season,13196.31,16.95,Barad Ltd,595
+91,Electronics,Mobile,Xiaomi,Festive,33033.06,10.32,Raju-Sachdev,1150
+92,Electronics,Smart Watch,Sony,All Season,10907.35,14.67,Bhardwaj-Bhandari,1083
+93,Electronics,Smart Watch,Xiaomi,All Season,7886.89,10.08,Ghosh-Balay,566
+94,Electronics,Smart Watch,Sony,All Season,16343.7,13.74,Sha Ltd,729
+95,Electronics,Laptop,Samsung,Festive,35280.37,11.83,"Nath, Sami and Sane",153
+96,Electronics,Laptop,Samsung,Festive,64380.83,16.9,"D’Alia, Raj and Nagi",247
+97,Electronics,TV,Sony,Festive,43369.52,11.43,"Sunder, Mukherjee and Muni",552
+98,Electronics,TV,Samsung,Festive,46411.36,13.49,More-Karan,1047
+99,Electronics,TV,Samsung,Festive,45623.22,13.45,"Kale, Manne and Bawa",993
+100,Electronics,Mobile,LG,Festive,13185.55,15.27,Acharya-Sarin,812
+101,Electronics,Laptop,Samsung,Festive,45929.42,12.34,Hayre Group,73
+102,Electronics,Smart Watch,Xiaomi,All Season,13581.13,13.24,Subramaniam-Raman,309
+103,Electronics,Smart Watch,Samsung,All Season,15878.62,11.05,"Sanghvi, Chander and Shan",708
+104,Electronics,TV,LG,Festive,45870.3,14.96,Tiwari-Din,933
+105,Electronics,Laptop,Sony,Festive,76077.25,13.6,"Munshi, Deshpande and Dhingra",1074
+106,Electronics,Mobile,Samsung,Festive,14973.64,17.67,Iyengar Ltd,720
+107,Electronics,Mobile,Xiaomi,Festive,33023.08,13.82,Butala-Balasubramanian,101
+108,Electronics,Mobile,Sony,Festive,38307.03,14.05,Chandran-Prabhu,71
+109,Electronics,TV,Samsung,Festive,33468.5,10.67,Deol Inc,374
+110,Electronics,Laptop,boAt,Festive,80080.21,16.46,Das-Bobal,541
+111,Electronics,Smart Watch,LG,All Season,12092.3,15.06,"Saran, Khalsa and Bora",211
+112,Electronics,Laptop,LG,Festive,72991.3,10.25,Gera-Kumar,396
+113,Electronics,Smart Watch,boAt,All Season,19488.77,15.58,"Mall, Sule and Mitter",1015
+114,Electronics,Laptop,boAt,Festive,66359.35,12.08,Dutta-Sabharwal,878
+115,Electronics,TV,LG,Festive,37317.37,10.46,Saini-Muni,571
+116,Electronics,Mobile,Xiaomi,Festive,30290.44,12.12,Maharaj Ltd,1039
+117,Electronics,Smart Watch,boAt,All Season,15796.46,14.53,Aggarwal Group,832
+118,Electronics,Laptop,LG,Festive,78199.58,14.59,"Chakraborty, Naidu and Sahota",514
+119,Electronics,Smart Watch,Samsung,All Season,13945.75,11.22,Saha Ltd,636
+120,Electronics,Mobile,Sony,Festive,34832.26,16.56,"Bansal, Shukla and Shukla",744
+121,Electronics,Laptop,Samsung,Festive,75212.04,13.68,"Sodhi, Dash and Bora",388
+122,Electronics,TV,Sony,Festive,26083.33,11.21,"Ben, Merchant and Doctor",619
+123,Electronics,Mobile,boAt,Festive,11732.96,11.84,"Shah, Kata and Padmanabhan",513
+124,Electronics,TV,Samsung,Festive,62262.49,15.04,"Hayre, Divan and Palan",914
+125,Electronics,Smart Watch,Xiaomi,All Season,17504.41,15.59,Kala Ltd,531
+126,Electronics,Smart Watch,Sony,All Season,8445.37,16.94,"Jani, Vaidya and Thaman",252
+127,Electronics,Mobile,LG,Festive,40278.01,13.1,Sheth Ltd,636
+128,Electronics,Smart Watch,Xiaomi,All Season,13255.68,15.04,Luthra LLC,277
+129,Electronics,Mobile,Samsung,Festive,11448.38,12.58,Arora-Yogi,572
+130,Electronics,TV,Samsung,Festive,36977.2,11.68,Sem LLC,237
+131,Electronics,Laptop,Samsung,Festive,102034.72,13.29,Dayal-Chaudry,659
+132,Electronics,Mobile,Xiaomi,Festive,18669.99,14.77,"Dhillon, Kalita and Bhatia",916
+133,Electronics,Laptop,Samsung,Festive,67186.97,17.09,"Padmanabhan, Bahri and Prabhakar",460
+134,Electronics,TV,Sony,Festive,62218.98,11.38,Dhar Inc,319
+135,Electronics,Smart Watch,LG,All Season,9665.47,10.36,Johal and Sons,892
+136,Electronics,Smart Watch,Sony,All Season,21998.87,10.36,"Rattan, Chand and Khatri",333
+137,Electronics,Smart Watch,Samsung,All Season,14636.96,14.62,Mitra-Kuruvilla,101
+138,Electronics,TV,Samsung,Festive,48263.11,12.54,Bhasin LLC,843
+139,Electronics,TV,Xiaomi,Festive,44795.96,13.77,Sehgal Group,1113
+140,Electronics,Laptop,boAt,Festive,43918.37,13.45,Bobal-Kade,442
+141,Electronics,Smart Watch,LG,All Season,17331.89,15.94,Nayar-Cheema,154
+142,Electronics,Laptop,Xiaomi,Festive,81936.35,13.28,Bhakta Ltd,341
+143,Electronics,Laptop,LG,Festive,40096.34,12.97,Pingle-Borde,1302
+144,Electronics,Smart Watch,Xiaomi,All Season,13153.17,17.9,Sundaram PLC,668
+145,Electronics,Smart Watch,Sony,All Season,8443.56,12.18,Dhawan Inc,926
+146,Electronics,Laptop,Samsung,Festive,70308.56,16.12,"Gopal, Seshadri and Baral",264
+147,Electronics,Mobile,Xiaomi,Festive,18749.73,15.13,"Hegde, Parikh and Ramachandran",404
+148,Electronics,Mobile,Sony,Festive,15513.14,11.59,Chokshi LLC,967
+149,Electronics,Mobile,Sony,Festive,43675.92,13.4,Kale and Sons,1019
+150,Electronics,TV,boAt,Festive,41095.07,10.03,"Sarraf, Ravel and Viswanathan",68
+151,Electronics,TV,LG,Festive,59402.98,17.87,Ram-Palla,1200
+152,Electronics,TV,LG,Festive,32303.52,14.13,"Shanker, Prakash and Narayan",374
+153,Electronics,Smart Watch,Xiaomi,All Season,8435.53,14.28,"Raja, Sarna and Seth",482
+154,Electronics,Smart Watch,Samsung,All Season,7074.06,11.45,Anne PLC,630
+155,Electronics,Mobile,Samsung,Festive,11683.97,13.14,Hari PLC,736
+156,Electronics,Smart Watch,LG,All Season,10296.79,12.19,Palla-Dasgupta,585
+157,Electronics,TV,LG,Festive,29591.97,14.34,Pathak-Ghose,245
+158,Electronics,Smart Watch,Xiaomi,All Season,4864.46,13.63,Narayanan-Ray,1149
+159,Electronics,Smart Watch,LG,All Season,5048.69,16.23,"Gulati, Raj and Baria",1188
+160,Electronics,Smart Watch,LG,All Season,15023.83,10.81,Ramakrishnan-Ghose,702
+161,Electronics,Smart Watch,LG,All Season,7404.78,16.19,"Rattan, Madan and Dar",512
+162,Electronics,Laptop,LG,Festive,46205.31,15.91,Khatri LLC,251
+163,Electronics,Laptop,Samsung,Festive,33403.38,13.51,Padmanabhan-Kulkarni,324
+164,Electronics,Smart Watch,Sony,All Season,18300.94,14.74,"Balakrishnan, Behl and Raval",1093
+165,Electronics,Smart Watch,Xiaomi,All Season,9716.77,13.18,Seth and Sons,469
+166,Electronics,Laptop,Xiaomi,Festive,99015.38,13.59,Desai-Bhatt,788
+167,Electronics,Mobile,LG,Festive,44239.64,15.29,Koshy-Seshadri,679
+168,Electronics,Smart Watch,Xiaomi,All Season,15847.3,13.21,Sarraf Group,403
+169,Electronics,Smart Watch,Samsung,All Season,7493.74,10.31,"Edwin, Apte and Badal",348
+170,Electronics,Smart Watch,LG,All Season,10477.5,14.64,Buch Group,458
+171,Electronics,Smart Watch,Samsung,All Season,13087.35,15.93,Mammen LLC,168
+172,Electronics,Smart Watch,Samsung,All Season,3150.73,11.61,Deshpande Inc,594
+173,Electronics,TV,Samsung,Festive,19989.78,13.31,Raval-Borah,45
+174,Electronics,Laptop,LG,Festive,58299.11,10.74,Ganesan PLC,155
+175,Electronics,Smart Watch,boAt,All Season,16097.78,11.73,"Goda, Chanda and Balan",242
+176,Electronics,Mobile,Samsung,Festive,37843.91,11.78,Dhar-Wason,574
+177,Electronics,TV,Xiaomi,Festive,37829.27,12.76,Issac and Sons,546
+178,Electronics,Laptop,Samsung,Festive,56806.28,14.93,Chopra-Rana,253
+179,Electronics,Smart Watch,Xiaomi,All Season,15523.19,10.44,Iyengar-Agate,124
+180,Electronics,Mobile,boAt,Festive,18089.68,10.67,Samra Ltd,414
+181,Electronics,Laptop,Xiaomi,Festive,66222.42,13.2,Kuruvilla and Sons,313
+182,Electronics,Laptop,Samsung,Festive,47326.89,16.33,Yohannan-Jaggi,637
+183,Electronics,Smart Watch,Sony,All Season,10752.14,16.26,Venkataraman PLC,264
+184,Electronics,Smart Watch,LG,All Season,14465.47,16.88,Pingle LLC,1096
+185,Electronics,Mobile,Samsung,Festive,13110.82,11.93,Rajagopal and Sons,999
+186,Electronics,Mobile,Samsung,Festive,18791.04,11.03,Nagar Ltd,333
+187,Electronics,Laptop,LG,Festive,59834.12,15.02,"Bahri, Modi and Lal",848
+188,Electronics,Mobile,LG,Festive,34504.77,11.21,"Venkataraman, Kara and Pandey",43
+189,Electronics,Smart Watch,Sony,All Season,14107.53,11.18,Kapoor-Ahluwalia,67
+190,Electronics,Smart Watch,Samsung,All Season,18929.97,12.93,Keer-Wagle,680
+191,Electronics,Laptop,Samsung,Festive,47667.88,12.97,"Choudhury, Varma and Sunder",181
+192,Electronics,TV,Sony,Festive,45678.84,14.04,Rout LLC,1399
+193,Electronics,Mobile,LG,Festive,36904.51,11.23,"Salvi, Sinha and Bobal",416
+194,Electronics,Laptop,Sony,Festive,44183.58,13.34,Kale PLC,935
+195,Electronics,Mobile,boAt,Festive,29551.79,12.49,Bhatt-Loke,1170
+196,Electronics,Mobile,Xiaomi,Festive,19677.23,16.85,Bahl-Rajagopalan,149
+197,Electronics,Laptop,Sony,Festive,28728.86,12.68,Natt Inc,1069
+198,Electronics,Mobile,Xiaomi,Festive,36499.06,17.79,"Sura, Dua and Rajan",1186
+199,Electronics,TV,LG,Festive,52632.01,10.05,Kalla-Gandhi,520
+200,Electronics,Smart Watch,Samsung,All Season,8677.48,10.99,"Barman, Kadakia and Brar",52
+201,Cooling Appliances,Fan,Voltas,Summer,4599.15,12.01,"Thaker, Bhardwaj and Kala",536
+202,Cooling Appliances,Fan,Voltas,Summer,2819.7,10.03,"Modi, Nazareth and Hora",51
+203,Cooling Appliances,Fan,Daikin,Summer,4271.33,12.98,Batta Inc,1476
+204,Cooling Appliances,Cooler,Voltas,Summer,11036.76,10.62,Pillai-Tailor,947
+205,Cooling Appliances,Refrigerator,Crompton,Summer,42569.78,11.9,"Singhal, Thakkar and Mann",1153
+206,Cooling Appliances,AC,Havells,Summer,44392.89,14.88,"Konda, Bhasin and Suri",635
+207,Cooling Appliances,AC,Crompton,Summer,57161.34,10.36,"Anand, Sheth and Mander",475
+208,Cooling Appliances,Fan,Voltas,Summer,4083.81,12.76,Saha Inc,809
+209,Cooling Appliances,AC,Blue Star,Summer,40944.88,14.86,Acharya Group,890
+210,Cooling Appliances,AC,Blue Star,Summer,60920.68,12.09,Prakash Ltd,40
+211,Cooling Appliances,AC,Voltas,Summer,28028.78,10.65,Sandal-Chatterjee,1136
+212,Cooling Appliances,Cooler,Crompton,Summer,15427.52,11.19,Iyer and Sons,736
+213,Cooling Appliances,Cooler,Havells,Summer,16837.7,14.68,"Basak, Narayanan and Shan",1116
+214,Cooling Appliances,AC,Daikin,Summer,37668.3,12.97,Shan-Batta,273
+215,Cooling Appliances,Fan,Havells,Summer,4773.61,14.51,"Lata, Chander and Chahal",371
+216,Cooling Appliances,AC,Daikin,Summer,34316.39,13.32,"Sachar, Chaudhuri and Wali",871
+217,Cooling Appliances,AC,Daikin,Summer,46121.22,13.84,Kashyap-Lalla,977
+218,Cooling Appliances,AC,Crompton,Summer,50698.89,14.96,Bhandari Inc,903
+219,Cooling Appliances,AC,Voltas,Summer,37252.21,11.58,"Menon, De and Merchant",136
+220,Cooling Appliances,Fan,Voltas,Summer,2369.93,11.3,Naidu and Sons,1015
+221,Cooling Appliances,Refrigerator,Havells,Summer,36131.66,13.37,Dada and Sons,588
+222,Cooling Appliances,AC,Voltas,Summer,48167.54,13.96,"Chaudhry, Kurian and Dayal",334
+223,Cooling Appliances,Fan,Voltas,Summer,4995.32,13.87,"Dass, Balay and Buch",646
+224,Cooling Appliances,Refrigerator,Havells,Summer,17689.18,12.6,"Dalal, Mander and Bail",955
+225,Cooling Appliances,AC,Voltas,Summer,36075.96,14.4,"Nagar, Panchal and Bansal",1011
+226,Cooling Appliances,Cooler,Havells,Summer,12480.49,10.61,Mohanty-Kar,348
+227,Cooling Appliances,Refrigerator,Blue Star,Summer,15664.15,13.03,Kumer-Singh,577
+228,Cooling Appliances,Fan,Blue Star,Summer,4790.03,12.63,Kaur Ltd,565
+229,Cooling Appliances,AC,Havells,Summer,29612.18,11.13,"Narasimhan, Chaudhary and Shere",151
+230,Cooling Appliances,Fan,Blue Star,Summer,3252.03,10.38,Dara and Sons,1206
+231,Cooling Appliances,Fan,Daikin,Summer,5086.4,11.3,Dalal-Krishnamurthy,587
+232,Cooling Appliances,AC,Daikin,Summer,58750.56,12.16,Brar and Sons,1096
+233,Cooling Appliances,Cooler,Blue Star,Summer,11243.69,11.29,Comar Inc,144
+234,Cooling Appliances,Fan,Voltas,Summer,1941.23,11.62,Rai-Walla,691
+235,Cooling Appliances,Cooler,Crompton,Summer,12110.81,12.82,Rastogi-Behl,1517
+236,Cooling Appliances,AC,Voltas,Summer,35076.17,10.8,Luthra Inc,432
+237,Cooling Appliances,AC,Crompton,Summer,41722.61,13.14,"Oak, Dugar and Uppal",492
+238,Cooling Appliances,Fan,Blue Star,Summer,5018.69,14.35,"Naidu, Banik and Loke",518
+239,Cooling Appliances,AC,Voltas,Summer,42677.96,11.49,"Karpe, Shenoy and Rout",140
+240,Cooling Appliances,Cooler,Blue Star,Summer,16732.31,13.06,"Dash, Prakash and Hegde",982
+241,Cooling Appliances,Fan,Crompton,Summer,4723.1,13.37,Bajwa and Sons,102
+242,Cooling Appliances,AC,Daikin,Summer,64502.75,14.56,"Shetty, Tripathi and Bawa",131
+243,Cooling Appliances,Fan,Daikin,Summer,4118.98,11.14,Sachar-Mohanty,1062
+244,Cooling Appliances,Refrigerator,Voltas,Summer,20392.92,12.28,Dar-Jhaveri,736
+245,Cooling Appliances,Refrigerator,Daikin,Summer,24410.34,10.4,Johal-Madan,1069
+246,Cooling Appliances,Fan,Voltas,Summer,3408.51,10.13,"Sarkar, Bala and Kalita",152
+247,Cooling Appliances,AC,Daikin,Summer,61828.58,12.09,Choudhury PLC,177
+248,Cooling Appliances,Fan,Crompton,Summer,3096.29,11.13,Sura-Bora,492
+249,Cooling Appliances,Cooler,Voltas,Summer,6416.26,14.47,"Sunder, Barad and Bahri",1258
+250,Cooling Appliances,Fan,Daikin,Summer,4316.76,10.95,Dhaliwal Ltd,1126
+251,Cooling Appliances,AC,Voltas,Summer,44273.83,14.19,"Goyal, Thakur and Brar",1510
+252,Cooling Appliances,Refrigerator,Daikin,Summer,44012.16,10.4,Karpe-Oak,486
+253,Cooling Appliances,AC,Havells,Summer,44391.34,14.68,"Dewan, Mammen and Lalla",1065
+254,Cooling Appliances,Fan,Voltas,Summer,1526.58,13.34,"Natarajan, Ahluwalia and Sane",946
+255,Cooling Appliances,Refrigerator,Daikin,Summer,38558.04,12.69,Devan-Thaman,723
+256,Cooling Appliances,Cooler,Voltas,Summer,12283.36,11.39,Trivedi-Raghavan,308
+257,Cooling Appliances,Cooler,Daikin,Summer,11028.72,10.63,"Sood, Savant and Puri",392
+258,Cooling Appliances,Cooler,Blue Star,Summer,8480.17,14.89,Raghavan-Aurora,599
+259,Cooling Appliances,Cooler,Blue Star,Summer,14996.34,10.98,"Raval, Sem and Parekh",938
+260,Cooling Appliances,Refrigerator,Blue Star,Summer,32199.14,13.4,Nagy-Dyal,1465
+261,Cooling Appliances,Fan,Voltas,Summer,5224.38,10.49,Gandhi Group,900
+262,Cooling Appliances,Fan,Havells,Summer,4173.97,13.21,Lalla Group,112
+263,Cooling Appliances,Fan,Voltas,Summer,4437.47,10.71,Kaul-Reddy,354
+264,Cooling Appliances,AC,Voltas,Summer,36347.87,14.69,"Ravi, Walia and D’Alia",1230
+265,Cooling Appliances,AC,Voltas,Summer,46305.81,12.82,"Patla, Borde and Garg",521
+266,Cooling Appliances,Fan,Blue Star,Summer,5098.4,11.53,Shukla Ltd,166
+267,Cooling Appliances,Refrigerator,Daikin,Summer,23792.84,11.74,Shankar PLC,167
+268,Cooling Appliances,Cooler,Daikin,Summer,12527.97,11.3,Sankar PLC,530
+269,Cooling Appliances,Cooler,Voltas,Summer,9173.05,11.79,"Chaudhari, Natt and Rege",431
+270,Cooling Appliances,Fan,Havells,Summer,1939.72,13.33,Chowdhury-Parmar,366
+271,Cooling Appliances,AC,Blue Star,Summer,39912.04,12.74,Khanna-Solanki,420
+272,Cooling Appliances,Fan,Blue Star,Summer,2604.2,13.3,Agate-Andra,739
+273,Cooling Appliances,Cooler,Voltas,Summer,10760.83,10.17,Saha Ltd,722
+274,Cooling Appliances,Cooler,Voltas,Summer,15208.09,14.99,Luthra Ltd,879
+275,Cooling Appliances,Refrigerator,Havells,Summer,25211.19,12.3,Baria PLC,795
+276,Cooling Appliances,AC,Blue Star,Summer,51162.55,14.7,Deshpande LLC,883
+277,Cooling Appliances,Cooler,Voltas,Summer,12303.77,10.75,"Mahal, Chauhan and Randhawa",320
+278,Cooling Appliances,Cooler,Daikin,Summer,12388.61,12.58,Dewan-Dugal,173
+279,Cooling Appliances,AC,Voltas,Summer,55578.64,12.53,Gola-Sabharwal,1140
+280,Cooling Appliances,Refrigerator,Daikin,Summer,29976.57,12.15,"Sant, Kulkarni and Naik",351
+281,Cooling Appliances,Refrigerator,Daikin,Summer,32753.75,13.83,Sura-Kota,426
+282,Cooling Appliances,Refrigerator,Daikin,Summer,19286.09,14.13,"Sule, Jani and Sampath",1299
+283,Cooling Appliances,Cooler,Blue Star,Summer,8037.55,13.12,Iyer Inc,888
+284,Cooling Appliances,Cooler,Crompton,Summer,9185.63,14.26,Vyas-Rout,758
+285,Cooling Appliances,Refrigerator,Voltas,Summer,32777.53,13.62,Tata and Sons,658
+286,Cooling Appliances,Cooler,Voltas,Summer,8446.1,10.09,"Dara, Johal and Kar",353
+287,Cooling Appliances,AC,Havells,Summer,31375.52,14.83,Prabhu Ltd,288
+288,Cooling Appliances,AC,Voltas,Summer,29377.79,14.46,"Morar, Sibal and Bhakta",709
+289,Cooling Appliances,Cooler,Voltas,Summer,9631.76,10.47,Sama-Solanki,520
+290,Cooling Appliances,Fan,Blue Star,Summer,3772.55,13.09,Biswas Ltd,660
+291,Cooling Appliances,Cooler,Blue Star,Summer,7816.49,14.18,"Lala, Rana and Barman",66
+292,Cooling Appliances,Fan,Voltas,Summer,5636.67,12.87,Kade-Chaudhuri,310
+293,Cooling Appliances,Cooler,Blue Star,Summer,9562.47,14.62,Chawla LLC,388
+294,Cooling Appliances,Refrigerator,Daikin,Summer,32346.62,14.52,Uppal Group,70
+295,Cooling Appliances,Fan,Blue Star,Summer,4919.06,14.37,Ramanathan-Vohra,636
+296,Cooling Appliances,Refrigerator,Havells,Summer,18857.3,11.32,Bhagat-Kurian,262
+297,Cooling Appliances,AC,Daikin,Summer,35817.75,10.97,"Toor, Walla and Vaidya",1228
+298,Cooling Appliances,AC,Daikin,Summer,62804.2,12.58,"Chada, Thakkar and Shenoy",1093
+299,Cooling Appliances,AC,Voltas,Summer,57498.65,10.81,"Pillai, Brahmbhatt and Kumer",540
+300,Cooling Appliances,Refrigerator,Blue Star,Summer,48816.36,10.57,Karan Inc,857
+301,Cooling Appliances,Cooler,Voltas,Summer,11046.65,11.61,Tank and Sons,993
+302,Cooling Appliances,AC,Voltas,Summer,45780.49,13.0,"Dua, Lal and Hayer",937
+303,Cooling Appliances,Fan,Voltas,Summer,3789.45,12.72,"Walla, Raja and Bahl",191
+304,Cooling Appliances,Fan,Voltas,Summer,5113.58,12.96,Mammen-Viswanathan,1211
+305,Cooling Appliances,Fan,Voltas,Summer,5834.89,12.02,Ben and Sons,425
+306,Cooling Appliances,Refrigerator,Blue Star,Summer,39827.26,13.72,Kaur and Sons,85
+307,Cooling Appliances,Refrigerator,Daikin,Summer,20142.35,14.35,"Pathak, Pillay and Suresh",377
+308,Cooling Appliances,AC,Crompton,Summer,60065.92,13.84,Chahal and Sons,719
+309,Cooling Appliances,Refrigerator,Voltas,Summer,27492.97,13.54,"Saxena, Prasad and Pai",378
+310,Cooling Appliances,Fan,Voltas,Summer,3418.39,10.06,Bakshi and Sons,337
+311,Cooling Appliances,Fan,Blue Star,Summer,4038.5,10.87,"D’Alia, Kamdar and Kanda",932
+312,Cooling Appliances,Fan,Daikin,Summer,4678.8,10.91,"Gulati, Dhawan and More",620
+313,Cooling Appliances,Fan,Crompton,Summer,5930.85,13.35,Boase and Sons,979
+314,Cooling Appliances,Cooler,Crompton,Summer,16243.1,14.46,Pant-Walla,530
+315,Cooling Appliances,Fan,Voltas,Summer,2696.44,10.33,"Dasgupta, Dhingra and Dalal",380
+316,Cooling Appliances,Refrigerator,Daikin,Summer,20326.82,10.56,Ratta PLC,422
+317,Cooling Appliances,Refrigerator,Blue Star,Summer,19821.51,10.97,"Saran, Mistry and Nayar",88
+318,Cooling Appliances,AC,Voltas,Summer,38044.57,13.94,Borra-Kar,314
+319,Cooling Appliances,AC,Crompton,Summer,45292.72,13.06,"Shan, Chaudry and Shah",1013
+320,Cooling Appliances,AC,Blue Star,Summer,52902.71,10.05,Singhal-Din,926
+321,Cooling Appliances,Fan,Crompton,Summer,3027.48,14.13,Gole Ltd,207
+322,Cooling Appliances,Refrigerator,Blue Star,Summer,41669.66,11.84,Trivedi-Samra,725
+323,Cooling Appliances,Cooler,Voltas,Summer,6572.16,11.46,Gour-Ranganathan,788
+324,Cooling Appliances,Cooler,Voltas,Summer,7805.36,13.73,"Krish, D’Alia and Kata",973
+325,Cooling Appliances,Refrigerator,Havells,Summer,36821.66,13.99,Baral Inc,738
+326,Cooling Appliances,Cooler,Daikin,Summer,8396.16,14.57,"Randhawa, Suresh and Rout",948
+327,Cooling Appliances,Cooler,Voltas,Summer,7799.91,12.18,Raval-Savant,494
+328,Cooling Appliances,Refrigerator,Voltas,Summer,23626.93,12.54,Jhaveri-Nigam,576
+329,Cooling Appliances,Fan,Voltas,Summer,2977.02,13.66,Singhal-Merchant,733
+330,Cooling Appliances,Cooler,Voltas,Summer,16875.7,11.41,"Khurana, Chaudry and Radhakrishnan",158
+331,Cooling Appliances,Cooler,Voltas,Summer,6448.95,10.87,Roy and Sons,1052
+332,Cooling Appliances,Fan,Voltas,Summer,4808.55,14.5,"Hegde, Walla and Rai",244
+333,Cooling Appliances,AC,Daikin,Summer,47616.43,10.75,"Sharaf, Verma and Barman",696
+334,Cooling Appliances,Refrigerator,Havells,Summer,20775.46,13.08,Morar-Bail,357
+335,Cooling Appliances,AC,Voltas,Summer,40797.22,10.87,Chopra-Minhas,177
+336,Cooling Appliances,Cooler,Daikin,Summer,14358.03,14.84,Dubey Group,126
+337,Cooling Appliances,AC,Daikin,Summer,52824.11,13.59,Nori-Sant,916
+338,Cooling Appliances,Cooler,Blue Star,Summer,8653.23,14.23,Mital-Rout,757
+339,Cooling Appliances,AC,Voltas,Summer,61114.87,14.47,"Nigam, Sharma and Sathe",399
+340,Cooling Appliances,Cooler,Blue Star,Summer,12382.17,11.98,Cherian-Kar,441
+341,Cooling Appliances,Cooler,Voltas,Summer,5454.48,13.82,Joshi-Tandon,730
+342,Cooling Appliances,AC,Voltas,Summer,28817.94,10.91,Divan Group,929
+343,Cooling Appliances,Fan,Crompton,Summer,3857.76,12.5,"Sethi, Gokhale and Sarraf",40
+344,Cooling Appliances,Refrigerator,Voltas,Summer,31949.81,12.41,Bhandari-Kothari,1207
+345,Cooling Appliances,Cooler,Blue Star,Summer,11382.25,11.07,"Chowdhury, Gupta and Gala",142
+346,Cooling Appliances,Cooler,Blue Star,Summer,11463.0,11.88,Bahl PLC,611
+347,Cooling Appliances,Cooler,Daikin,Summer,11449.65,12.77,Ahuja PLC,803
+348,Cooling Appliances,Refrigerator,Voltas,Summer,31962.77,10.3,Krishna-Sami,236
+349,Cooling Appliances,Fan,Blue Star,Summer,3426.42,11.55,Krishnan-Radhakrishnan,670
+350,Cooling Appliances,Cooler,Voltas,Summer,10902.67,14.0,Keer Inc,561
+351,Cooling Appliances,Cooler,Blue Star,Summer,8347.28,10.26,"Borra, Pathak and Misra",456
+352,Cooling Appliances,Cooler,Voltas,Summer,9245.1,14.7,Bhargava-Aggarwal,561
+353,Cooling Appliances,Fan,Voltas,Summer,5407.99,10.06,"Singh, Sahota and Karan",1357
+354,Cooling Appliances,Refrigerator,Voltas,Summer,42432.61,10.92,"Dhawan, Sampath and Pall",127
+355,Cooling Appliances,Fan,Voltas,Summer,3300.0,10.19,Cherian and Sons,794
+356,Cooling Appliances,Fan,Voltas,Summer,5101.76,13.97,"Oommen, Sethi and Khatri",261
+357,Cooling Appliances,Fan,Crompton,Summer,4855.98,10.43,Thaker-Nagarajan,1136
+358,Cooling Appliances,AC,Havells,Summer,47688.62,14.95,"Gala, Gupta and Dhar",505
+359,Cooling Appliances,AC,Havells,Summer,40619.95,14.84,Khalsa-Bera,801
+360,Cooling Appliances,AC,Voltas,Summer,34210.47,14.78,Amble-Dixit,687
+361,Cooling Appliances,Fan,Crompton,Summer,1851.76,10.2,Sandhu-Varughese,706
+362,Cooling Appliances,AC,Havells,Summer,41009.86,13.37,Vora and Sons,536
+363,Cooling Appliances,Refrigerator,Voltas,Summer,13093.45,11.41,Grover-Ratta,880
+364,Cooling Appliances,Fan,Voltas,Summer,4156.48,14.15,"Raja, Kibe and Bala",491
+365,Cooling Appliances,Fan,Daikin,Summer,3527.47,13.03,"Brahmbhatt, Mander and Banik",1505
+366,Cooling Appliances,Fan,Blue Star,Summer,3935.81,12.57,Agarwal-Wagle,220
+367,Cooling Appliances,Refrigerator,Voltas,Summer,27761.83,13.52,Buch-Yadav,68
+368,Cooling Appliances,Refrigerator,Daikin,Summer,33365.47,12.1,Kar-Trivedi,670
+369,Cooling Appliances,Cooler,Voltas,Summer,11494.74,13.41,Nadkarni-Lal,681
+370,Cooling Appliances,Cooler,Blue Star,Summer,12111.14,12.58,"Thaker, Dey and Jha",115
+371,Cooling Appliances,Cooler,Crompton,Summer,13508.98,10.44,"Bumb, Ganguly and Seshadri",898
+372,Cooling Appliances,Cooler,Crompton,Summer,13492.61,10.57,Choudhry-Sridhar,1323
+373,Cooling Appliances,AC,Voltas,Summer,47802.49,11.22,Salvi-Nigam,754
+374,Cooling Appliances,Refrigerator,Blue Star,Summer,17398.56,12.12,"Panchal, Kakar and Taneja",551
+375,Cooling Appliances,Fan,Blue Star,Summer,6491.33,14.99,Joshi PLC,446
+376,Cooling Appliances,Refrigerator,Voltas,Summer,19028.59,12.55,Naik Ltd,807
+377,Cooling Appliances,Cooler,Daikin,Summer,10326.19,11.5,Aurora-Upadhyay,590
+378,Cooling Appliances,Fan,Blue Star,Summer,4210.7,13.87,Das-Basak,567
+379,Cooling Appliances,Fan,Voltas,Summer,2755.44,13.77,"Sura, Baria and Misra",671
+380,Cooling Appliances,Fan,Daikin,Summer,2071.16,13.62,"Sastry, Baral and Luthra",206
+381,Cooling Appliances,Fan,Blue Star,Summer,2866.12,10.5,"Khare, Chahal and Jani",259
+382,Cooling Appliances,Cooler,Crompton,Summer,6756.58,12.8,"Prabhu, Pau and Badal",325
+383,Cooling Appliances,Cooler,Voltas,Summer,10365.43,12.3,Bandi-Lala,392
+384,Cooling Appliances,AC,Blue Star,Summer,26114.76,10.59,"Hari, Wali and Bhatia",192
+385,Cooling Appliances,Refrigerator,Havells,Summer,34230.85,13.44,Bava Group,275
+386,Cooling Appliances,AC,Blue Star,Summer,38583.42,13.01,"Sura, Sen and Walla",1355
+387,Cooling Appliances,Refrigerator,Voltas,Summer,17297.14,13.59,Maharaj Inc,613
+388,Cooling Appliances,AC,Daikin,Summer,49365.87,11.64,Kaul Group,85
+389,Cooling Appliances,Cooler,Havells,Summer,7650.14,11.01,"Taneja, Sha and Kunda",68
+390,Cooling Appliances,Refrigerator,Daikin,Summer,31417.48,10.58,Narayan LLC,458
+391,Cooling Appliances,AC,Havells,Summer,44999.73,12.57,Brahmbhatt PLC,971
+392,Cooling Appliances,Fan,Blue Star,Summer,3773.17,10.88,Ramesh PLC,751
+393,Cooling Appliances,Cooler,Blue Star,Summer,9167.31,14.45,Grover-Bhardwaj,136
+394,Cooling Appliances,Fan,Blue Star,Summer,4089.43,12.03,Dugar-Biswas,463
+395,Cooling Appliances,AC,Crompton,Summer,29722.43,11.61,Munshi-Randhawa,228
+396,Cooling Appliances,Cooler,Voltas,Summer,7576.38,14.54,Yohannan LLC,636
+397,Cooling Appliances,Fan,Voltas,Summer,2621.45,14.08,"Kapoor, Lalla and Dixit",207
+398,Cooling Appliances,Refrigerator,Blue Star,Summer,22296.46,12.71,Barad Group,574
+399,Cooling Appliances,Cooler,Blue Star,Summer,10197.84,12.12,Mital-Bose,421
+400,Cooling Appliances,AC,Crompton,Summer,50554.76,11.09,Krishna-Lala,166
+401,Winter Appliances,Heater,Havells,Winter,2383.58,10.56,Sahni LLC,642
+402,Winter Appliances,Geyser,Havells,Winter,10813.6,11.92,Parmar-Kuruvilla,658
+403,Winter Appliances,Heater,Havells,Winter,3703.82,10.79,Sridhar-Nagar,868
+404,Winter Appliances,Geyser,Havells,Winter,6409.1,12.83,Ganesh Ltd,1229
+405,Winter Appliances,Heater,Orient,Winter,2445.48,10.02,Hans-Basak,118
+406,Winter Appliances,Geyser,Orient,Winter,8421.11,13.94,"Palan, Chatterjee and Raghavan",1188
+407,Winter Appliances,Heater,Usha,Winter,3815.39,10.96,"Raghavan, Rajan and Ramaswamy",348
+408,Winter Appliances,Heater,Bajaj,Winter,4910.94,12.32,Khanna-Parekh,174
+409,Winter Appliances,Heater,Usha,Winter,6539.38,14.95,Loyal-Chandran,481
+410,Winter Appliances,Heater,Orient,Winter,4101.21,11.19,"Koshy, Sandhu and Tailor",1598
+411,Winter Appliances,Heater,Orient,Winter,2022.64,10.49,Mohan Ltd,41
+412,Winter Appliances,Geyser,Bajaj,Winter,6307.38,13.64,Sheth PLC,1002
+413,Winter Appliances,Heater,Havells,Winter,3346.98,10.59,Prakash-Shankar,570
+414,Winter Appliances,Heater,Usha,Winter,4080.22,10.97,"Shukla, Kale and Korpal",691
+415,Winter Appliances,Geyser,Usha,Winter,9002.86,10.9,Kashyap LLC,759
+416,Winter Appliances,Geyser,Orient,Winter,11926.29,13.66,Andra PLC,963
+417,Winter Appliances,Geyser,Bajaj,Winter,6255.96,13.69,Doshi-Sanghvi,1041
+418,Winter Appliances,Heater,Orient,Winter,6065.55,14.73,"Karpe, Om and Oak",438
+419,Winter Appliances,Heater,Usha,Winter,2217.83,13.31,"Bumb, Divan and Varty",814
+420,Winter Appliances,Geyser,Havells,Winter,10794.62,10.89,Narang Group,490
+421,Winter Appliances,Heater,Bajaj,Winter,3599.04,13.17,"Chada, Chatterjee and Amble",164
+422,Winter Appliances,Heater,Bajaj,Winter,4330.6,10.39,Puri Group,47
+423,Winter Appliances,Heater,Orient,Winter,3476.83,11.04,Balan-Jain,588
+424,Winter Appliances,Heater,Orient,Winter,4552.35,10.27,Das-Oak,611
+425,Winter Appliances,Heater,Havells,Winter,4668.52,12.48,Jain Group,566
+426,Winter Appliances,Geyser,Havells,Winter,11745.18,13.69,"Contractor, Sheth and Mangal",570
+427,Winter Appliances,Heater,Orient,Winter,2648.45,14.4,"Pathak, D’Alia and Nazareth",1230
+428,Winter Appliances,Heater,Bajaj,Winter,2133.43,13.5,"Samra, Yadav and Deol",1321
+429,Winter Appliances,Heater,Bajaj,Winter,5457.69,13.72,Aurora-Nayak,510
+430,Winter Appliances,Geyser,Havells,Winter,10818.79,10.29,Lalla PLC,244
+431,Winter Appliances,Geyser,Orient,Winter,9924.59,11.36,Koshy and Sons,547
+432,Winter Appliances,Heater,Bajaj,Winter,3900.91,12.62,Sarkar-Sane,1155
+433,Winter Appliances,Heater,Bajaj,Winter,5100.31,14.49,"Chawla, Bhat and Bhattacharyya",1253
+434,Winter Appliances,Heater,Havells,Winter,5992.67,12.39,Malhotra Group,159
+435,Winter Appliances,Geyser,Bajaj,Winter,8363.07,10.26,Modi-Khurana,534
+436,Winter Appliances,Heater,Orient,Winter,3007.53,11.18,"Kamdar, Karnik and Kara",112
+437,Winter Appliances,Heater,Crompton,Winter,1463.27,13.24,Sangha-Pandey,560
+438,Winter Appliances,Heater,Orient,Winter,2221.04,11.02,Saxena-Sachdeva,658
+439,Winter Appliances,Heater,Orient,Winter,2244.87,12.19,"Sane, Desai and Sankaran",335
+440,Winter Appliances,Geyser,Bajaj,Winter,9933.55,13.58,Mani-Rajagopalan,707
+441,Winter Appliances,Heater,Havells,Winter,4147.44,10.27,Bajaj Ltd,811
+442,Winter Appliances,Geyser,Havells,Winter,9891.24,11.32,Prasad Inc,554
+443,Winter Appliances,Geyser,Havells,Winter,13086.05,14.2,"Sarin, Sridhar and Sagar",359
+444,Winter Appliances,Heater,Bajaj,Winter,4934.91,10.5,Chand Ltd,324
+445,Winter Appliances,Heater,Orient,Winter,3016.82,11.67,"Rai, Mittal and Majumdar",1588
+446,Winter Appliances,Geyser,Havells,Winter,9624.99,12.96,Anne and Sons,730
+447,Winter Appliances,Heater,Havells,Winter,2207.21,13.78,Kala-Sarin,676
+448,Winter Appliances,Geyser,Bajaj,Winter,9621.29,14.5,Krishnan-Chakrabarti,1286
+449,Winter Appliances,Geyser,Crompton,Winter,8854.95,13.47,Date LLC,174
+450,Winter Appliances,Geyser,Bajaj,Winter,7528.51,10.49,De-Sastry,147
+451,Winter Appliances,Heater,Orient,Winter,3540.8,14.22,Viswanathan-Munshi,40
+452,Winter Appliances,Geyser,Usha,Winter,3907.47,11.36,Virk-Rai,317
+453,Winter Appliances,Heater,Usha,Winter,3220.77,13.75,"Singh, Dara and Johal",998
+454,Winter Appliances,Geyser,Havells,Winter,5984.16,12.41,Wali and Sons,40
+455,Winter Appliances,Heater,Havells,Winter,3824.15,12.37,Manda LLC,589
+456,Winter Appliances,Heater,Havells,Winter,5691.12,10.94,Kibe LLC,473
+457,Winter Appliances,Heater,Crompton,Winter,3430.3,11.62,"Choudhry, Bhandari and Char",987
+458,Winter Appliances,Geyser,Orient,Winter,4969.3,10.62,"Wagle, Nadig and Sagar",827
+459,Winter Appliances,Geyser,Crompton,Winter,6025.67,14.49,"Khanna, Bahl and Panchal",582
+460,Winter Appliances,Geyser,Havells,Winter,8709.52,12.16,"Bal, Tailor and Agate",94
+461,Winter Appliances,Heater,Orient,Winter,2314.54,13.38,"Buch, Kadakia and Choudhury",81
+462,Winter Appliances,Heater,Bajaj,Winter,6753.52,12.27,"Dayal, Banerjee and Sanghvi",334
+463,Winter Appliances,Heater,Havells,Winter,1804.37,10.8,Pandey-Sibal,677
+464,Winter Appliances,Geyser,Bajaj,Winter,14614.06,13.74,Mukherjee-Narang,433
+465,Winter Appliances,Heater,Havells,Winter,3095.53,11.19,"Dhar, Mishra and Srinivasan",214
+466,Winter Appliances,Heater,Havells,Winter,6708.19,11.83,Sawhney and Sons,1166
+467,Winter Appliances,Heater,Usha,Winter,3410.13,13.11,"Bawa, Bahl and Zachariah",583
+468,Winter Appliances,Geyser,Bajaj,Winter,8551.27,10.27,Gopal Group,189
+469,Winter Appliances,Geyser,Havells,Winter,13140.13,11.51,"Varghese, Peri and Suresh",221
+470,Winter Appliances,Geyser,Crompton,Winter,3976.94,11.46,Guha-Tak,1132
+471,Winter Appliances,Geyser,Havells,Winter,4458.33,10.31,Chopra PLC,819
+472,Winter Appliances,Geyser,Bajaj,Winter,5273.42,13.89,Sunder Group,1114
+473,Winter Appliances,Heater,Usha,Winter,6422.17,13.3,"Shanker, Uppal and Bhagat",655
+474,Winter Appliances,Heater,Havells,Winter,1765.57,11.53,Subramaniam-Tata,416
+475,Winter Appliances,Geyser,Havells,Winter,6553.68,12.66,Baral PLC,419
+476,Winter Appliances,Geyser,Crompton,Winter,10048.51,14.09,"Randhawa, Madan and Bassi",211
+477,Winter Appliances,Heater,Havells,Winter,3676.64,13.53,"Dube, Lad and Joshi",439
+478,Winter Appliances,Heater,Havells,Winter,3336.98,13.86,Modi PLC,1632
+479,Winter Appliances,Geyser,Havells,Winter,9124.39,12.56,Radhakrishnan-Dasgupta,92
+480,Winter Appliances,Heater,Orient,Winter,3526.94,10.35,Pradhan LLC,457
+481,Winter Appliances,Heater,Orient,Winter,4636.26,14.14,Atwal-Desai,106
+482,Winter Appliances,Heater,Bajaj,Winter,4898.56,13.25,Ranganathan-Pandey,159
+483,Winter Appliances,Geyser,Havells,Winter,12148.7,14.55,Vora-Anne,1080
+484,Winter Appliances,Heater,Havells,Winter,4325.36,13.68,"Radhakrishnan, Sule and Tak",696
+485,Winter Appliances,Geyser,Orient,Winter,10816.78,14.9,Sarma-Kaur,995
+486,Winter Appliances,Geyser,Havells,Winter,6198.37,12.28,Baral-Ram,1071
+487,Winter Appliances,Heater,Orient,Winter,2656.69,13.76,Chhabra PLC,567
+488,Winter Appliances,Geyser,Bajaj,Winter,6111.03,13.89,Zachariah-Master,847
+489,Winter Appliances,Geyser,Usha,Winter,4813.14,10.03,Walia-Ram,680
+490,Winter Appliances,Geyser,Havells,Winter,7858.04,14.45,"Khatri, Venkataraman and Dada",146
+491,Winter Appliances,Heater,Crompton,Winter,4345.35,14.38,Dara-Khalsa,1251
+492,Winter Appliances,Heater,Havells,Winter,2457.89,12.86,"Parikh, Bora and Lala",724
+493,Winter Appliances,Heater,Bajaj,Winter,4206.84,13.85,"Krishnan, Deshpande and Purohit",646
+494,Winter Appliances,Heater,Havells,Winter,5620.62,12.17,"Maharaj, Borra and Walia",820
+495,Winter Appliances,Heater,Usha,Winter,2273.9,12.82,"Kant, Parsa and Majumdar",407
+496,Winter Appliances,Geyser,Crompton,Winter,9344.73,11.58,Luthra Ltd,613
+497,Winter Appliances,Heater,Orient,Winter,5391.03,12.85,"Mannan, Solanki and Bajaj",708
+498,Winter Appliances,Heater,Usha,Winter,3050.4,11.69,D’Alia Group,589
+499,Winter Appliances,Geyser,Orient,Winter,6642.07,14.53,Sunder LLC,256
+500,Winter Appliances,Heater,Bajaj,Winter,3262.41,11.15,Banik LLC,940
+501,Winter Appliances,Heater,Usha,Winter,5502.29,11.16,Madan-Mitra,460
+502,Winter Appliances,Geyser,Orient,Winter,6232.81,11.03,Dewan Inc,253
+503,Winter Appliances,Geyser,Bajaj,Winter,9945.31,11.45,Parsa Ltd,1329
+504,Winter Appliances,Geyser,Usha,Winter,12497.04,10.35,Goyal Inc,496
+505,Winter Appliances,Geyser,Bajaj,Winter,11185.83,14.85,Pandya-Wadhwa,136
+506,Winter Appliances,Heater,Usha,Winter,2497.25,10.23,"Trivedi, Boase and Lala",219
+507,Winter Appliances,Heater,Usha,Winter,5600.54,12.27,"Handa, Biswas and Bora",698
+508,Winter Appliances,Geyser,Havells,Winter,12610.8,12.44,Bal Group,482
+509,Winter Appliances,Heater,Bajaj,Winter,3197.34,13.03,Sant PLC,269
+510,Winter Appliances,Geyser,Bajaj,Winter,8895.86,13.32,Nadig LLC,361
+511,Winter Appliances,Heater,Bajaj,Winter,2388.13,12.42,"Prabhu, Rattan and Dalal",130
+512,Winter Appliances,Heater,Usha,Winter,2947.69,14.37,Doshi-Rana,1159
+513,Winter Appliances,Heater,Crompton,Winter,5476.65,10.39,Radhakrishnan and Sons,671
+514,Winter Appliances,Geyser,Orient,Winter,7185.41,13.01,Sachdeva LLC,635
+515,Winter Appliances,Geyser,Bajaj,Winter,12628.4,13.45,Kale-Badami,542
+516,Winter Appliances,Heater,Orient,Winter,3476.95,12.28,Mangat Inc,147
+517,Winter Appliances,Heater,Havells,Winter,4151.71,11.28,"Jaggi, Nigam and Deshpande",772
+518,Winter Appliances,Heater,Bajaj,Winter,4825.73,14.24,"Cheema, Mutti and Munshi",1302
+519,Winter Appliances,Heater,Orient,Winter,4032.3,10.63,"Chandra, Raja and Barad",424
+520,Winter Appliances,Geyser,Havells,Winter,10762.41,11.86,"Bhat, Ray and Balan",40
+521,Winter Appliances,Geyser,Bajaj,Winter,10994.57,11.25,Jha-Bajwa,702
+522,Winter Appliances,Geyser,Usha,Winter,4613.68,11.61,"Bora, Rajagopal and Deep",1275
+523,Winter Appliances,Geyser,Bajaj,Winter,6646.51,12.86,"Batra, Pall and Setty",536
+524,Winter Appliances,Geyser,Bajaj,Winter,15096.37,14.65,Munshi-Khatri,264
+525,Winter Appliances,Geyser,Bajaj,Winter,10752.48,10.69,"Lalla, Khare and Aggarwal",1162
+526,Winter Appliances,Heater,Usha,Winter,5052.92,11.69,Muni LLC,878
+527,Winter Appliances,Heater,Usha,Winter,3525.49,11.73,Trivedi-Sidhu,223
+528,Winter Appliances,Heater,Bajaj,Winter,3685.92,13.92,Rajan LLC,290
+529,Winter Appliances,Geyser,Bajaj,Winter,7383.24,14.98,"Dani, Sachdev and Walia",588
+530,Winter Appliances,Heater,Usha,Winter,2219.35,11.3,Sangha-Om,478
+531,Winter Appliances,Heater,Usha,Winter,3720.6,11.72,"Varma, Dada and Baria",211
+532,Winter Appliances,Heater,Bajaj,Winter,3433.15,14.28,Kashyap-Bobal,850
+533,Winter Appliances,Heater,Usha,Winter,4610.44,13.99,Srinivasan Ltd,654
+534,Winter Appliances,Geyser,Orient,Winter,15621.39,12.33,"Mammen, Lall and Munshi",133
+535,Winter Appliances,Heater,Bajaj,Winter,2316.19,11.61,Edwin Inc,164
+536,Winter Appliances,Heater,Havells,Winter,4347.41,10.24,"Andra, Suresh and Raju",280
+537,Winter Appliances,Geyser,Havells,Winter,15442.58,13.1,Jaggi-Malhotra,651
+538,Winter Appliances,Geyser,Orient,Winter,13037.75,11.84,"Murty, Rege and Lall",114
+539,Winter Appliances,Geyser,Bajaj,Winter,11406.06,10.55,Bera LLC,706
+540,Winter Appliances,Geyser,Crompton,Winter,7970.05,12.69,Barad-Mangat,248
+541,Winter Appliances,Geyser,Havells,Winter,11357.67,12.69,Solanki and Sons,872
+542,Winter Appliances,Heater,Orient,Winter,1261.29,12.74,Dhingra LLC,638
+543,Winter Appliances,Geyser,Orient,Winter,7635.14,11.64,"Prashad, Sanghvi and Murthy",1395
+544,Winter Appliances,Geyser,Havells,Winter,4973.46,11.77,Banik-Karan,882
+545,Winter Appliances,Heater,Havells,Winter,4949.4,11.22,Sridhar Ltd,1284
+546,Winter Appliances,Heater,Bajaj,Winter,3611.03,13.68,Baria-Chauhan,253
+547,Winter Appliances,Geyser,Bajaj,Winter,11079.83,13.48,"Atwal, Munshi and Singh",168
+548,Winter Appliances,Geyser,Bajaj,Winter,7416.53,10.74,Wagle Inc,224
+549,Winter Appliances,Heater,Havells,Winter,4252.11,10.61,Nazareth-Sood,378
+550,Winter Appliances,Geyser,Orient,Winter,3954.81,10.94,"Ben, Apte and Pai",615
+551,Winter Appliances,Heater,Bajaj,Winter,6708.63,13.26,"Hayer, Dada and Rattan",1111
+552,Winter Appliances,Heater,Bajaj,Winter,6547.47,12.03,"Tak, Dhillon and Apte",796
+553,Winter Appliances,Heater,Usha,Winter,4221.3,10.1,Som-Atwal,142
+554,Winter Appliances,Heater,Usha,Winter,5157.35,14.22,"Rastogi, Bedi and Kumar",840
+555,Winter Appliances,Heater,Orient,Winter,3890.47,14.75,Vyas Ltd,471
+556,Winter Appliances,Geyser,Havells,Winter,6162.66,14.28,"Sura, Rattan and Loke",342
+557,Winter Appliances,Geyser,Orient,Winter,3745.9,12.67,"Biswas, Bawa and Dugar",152
+558,Winter Appliances,Heater,Orient,Winter,6334.68,10.46,Natt Group,764
+559,Winter Appliances,Geyser,Orient,Winter,6554.67,13.55,"Chokshi, Garde and Malhotra",640
+560,Winter Appliances,Heater,Havells,Winter,1405.83,13.51,Prabhakar LLC,308
+561,Winter Appliances,Heater,Bajaj,Winter,4909.4,13.98,"Singhal, Sani and Nazareth",341
+562,Winter Appliances,Geyser,Crompton,Winter,11486.13,14.35,"Chowdhury, Bains and Anand",364
+563,Winter Appliances,Geyser,Havells,Winter,9607.3,14.74,Chopra-Maharaj,917
+564,Winter Appliances,Heater,Usha,Winter,1878.23,11.61,Nayar LLC,808
+565,Winter Appliances,Geyser,Havells,Winter,5601.07,10.8,"Kara, Tak and Ramaswamy",741
+566,Winter Appliances,Geyser,Havells,Winter,5402.57,13.04,"Bassi, Murty and Pandit",163
+567,Winter Appliances,Heater,Crompton,Winter,3611.85,10.04,Jain-Sridhar,67
+568,Winter Appliances,Heater,Orient,Winter,4982.7,11.49,"Verma, Majumdar and Nagarajan",545
+569,Winter Appliances,Geyser,Usha,Winter,10070.47,11.67,Sem-Dugar,1478
+570,Winter Appliances,Heater,Bajaj,Winter,1318.48,14.5,"Kade, Rao and Tella",413
+571,Winter Appliances,Heater,Havells,Winter,2353.42,14.41,Dhingra Group,176
+572,Winter Appliances,Geyser,Crompton,Winter,11050.91,12.76,Munshi-Char,111
+573,Winter Appliances,Heater,Orient,Winter,4225.88,13.66,Mitter and Sons,172
+574,Winter Appliances,Geyser,Bajaj,Winter,7067.84,14.72,Sarna LLC,46
+575,Winter Appliances,Heater,Havells,Winter,2510.13,11.67,Bansal-Nagarajan,623
+576,Winter Appliances,Heater,Bajaj,Winter,5583.02,10.19,Bera-Andra,626
+577,Winter Appliances,Heater,Crompton,Winter,5469.29,13.11,Mani Ltd,603
+578,Winter Appliances,Heater,Bajaj,Winter,4002.7,14.06,Wason Group,222
+579,Winter Appliances,Geyser,Orient,Winter,11736.68,12.83,Narayanan-Bhatti,1105
+580,Winter Appliances,Heater,Havells,Winter,2219.59,10.22,Baria-Varty,1460
+581,Winter Appliances,Heater,Orient,Winter,3477.15,11.97,Nagarajan-Date,40
+582,Winter Appliances,Heater,Havells,Winter,5844.27,13.71,"Hari, Pandey and Prakash",420
+583,Winter Appliances,Heater,Orient,Winter,2216.77,11.75,"Bains, Mangal and Sule",575
+584,Winter Appliances,Heater,Orient,Winter,2556.87,14.4,Anand-Chander,569
+585,Winter Appliances,Geyser,Havells,Winter,7583.12,12.56,Vohra-Hans,80
+586,Winter Appliances,Heater,Havells,Winter,3605.31,13.69,"Yohannan, Brahmbhatt and Andra",456
+587,Winter Appliances,Heater,Bajaj,Winter,3297.41,14.44,Bedi PLC,826
+588,Winter Appliances,Geyser,Usha,Winter,8121.97,10.13,Samra-Dua,240
+589,Winter Appliances,Geyser,Orient,Winter,16194.06,12.89,Borra Group,594
+590,Winter Appliances,Geyser,Usha,Winter,7906.83,13.54,Wali Inc,303
+591,Winter Appliances,Heater,Havells,Winter,3080.92,13.79,Patil Ltd,507
+592,Winter Appliances,Geyser,Havells,Winter,8453.65,13.4,Dar LLC,986
+593,Winter Appliances,Geyser,Orient,Winter,13033.5,13.56,Sant PLC,904
+594,Winter Appliances,Geyser,Usha,Winter,6243.0,10.52,Dugar-Tailor,715
+595,Winter Appliances,Heater,Bajaj,Winter,4361.64,10.75,Mallick Group,1145
+596,Winter Appliances,Geyser,Havells,Winter,7678.09,12.29,Pandit-Murthy,1670
+597,Winter Appliances,Heater,Orient,Winter,3619.1,10.27,"Gour, Pradhan and Rout",191
+598,Winter Appliances,Heater,Orient,Winter,5166.39,12.03,Ganesh Ltd,538
+599,Winter Appliances,Geyser,Crompton,Winter,5037.35,13.57,Jayaraman Group,839
+600,Winter Appliances,Geyser,Usha,Winter,7243.82,11.22,Vala-Chacko,469
+601,Fashion,Jeans,Levis,All Season,2139.99,28.23,"Dani, Mall and Thakur",1023
+602,Fashion,Shoes,FabIndia,All Season,3755.14,27.31,"Virk, Kashyap and Comar",525
+603,Fashion,Shoes,Biba,All Season,3823.7,27.3,"Srivastava, Modi and Parsa",195
+604,Fashion,Jeans,Levis,All Season,4198.36,30.35,"Radhakrishnan, Krishnan and Datta",69
+605,Fashion,Jeans,Peter England,All Season,1496.2,30.61,"Rama, Dhaliwal and Din",950
+606,Fashion,Shoes,FabIndia,All Season,5311.62,26.65,"Walla, Saxena and Ranganathan",356
+607,Fashion,Kurta,Allen Solly,Festive,1474.57,26.35,"Ghose, Rajan and Soman",1088
+608,Fashion,Jeans,Levis,All Season,4848.31,28.34,Warrior PLC,151
+609,Fashion,Kurta,Levis,Festive,1881.35,27.55,Banik-Varkey,598
+610,Fashion,Jeans,Biba,All Season,1128.8,27.28,"Kuruvilla, Agrawal and Varghese",233
+611,Fashion,Saree,FabIndia,Festive,3634.85,26.58,"Choudhury, Bail and Setty",770
+612,Fashion,Jeans,Allen Solly,All Season,3126.93,32.74,Ben-Rege,955
+613,Fashion,Kurta,Biba,Festive,1636.86,30.34,"Kibe, Golla and Pradhan",1490
+614,Fashion,Shoes,FabIndia,All Season,2860.29,30.95,Bhatnagar and Sons,954
+615,Fashion,Jeans,FabIndia,All Season,2686.93,28.15,Konda Inc,309
+616,Fashion,Shoes,Biba,All Season,3956.72,26.75,Sheth Inc,398
+617,Fashion,Saree,Peter England,Festive,5433.58,29.3,Korpal-Varghese,111
+618,Fashion,Kurta,Peter England,Festive,1932.66,31.01,Pingle Ltd,893
+619,Fashion,Jeans,FabIndia,All Season,1266.24,31.2,Varma Group,676
+620,Fashion,Shoes,Levis,All Season,2433.22,27.04,Koshy-Devi,1401
+621,Fashion,Saree,FabIndia,Festive,3856.56,30.02,Krishnamurthy-Sengupta,1459
+622,Fashion,Jeans,FabIndia,All Season,2227.06,28.6,"Khurana, Lala and Anne",181
+623,Fashion,Shoes,FabIndia,All Season,1751.53,34.18,Badami-Chad,626
+624,Fashion,Jeans,Biba,All Season,2835.3,28.33,"Morar, Sandal and Kade",747
+625,Fashion,Kurta,Biba,Festive,2538.8,34.63,Sethi-Kuruvilla,1029
+626,Fashion,Saree,Allen Solly,Festive,1765.66,29.36,Sangha Ltd,768
+627,Fashion,Kurta,Peter England,Festive,2477.97,33.63,Talwar-Wason,1019
+628,Fashion,Jeans,Levis,All Season,2692.82,32.35,"Vora, Madan and Doshi",115
+629,Fashion,Kurta,FabIndia,Festive,2092.62,26.62,"Sen, Warrior and Murty",658
+630,Fashion,Shoes,FabIndia,All Season,1720.15,26.49,Saha Inc,277
+631,Fashion,Saree,Levis,Festive,2555.74,33.27,Bajwa-Mahajan,683
+632,Fashion,Kurta,Levis,Festive,1340.03,30.3,Kar PLC,407
+633,Fashion,Kurta,Levis,Festive,928.77,28.26,"Radhakrishnan, Ram and Dubey",377
+634,Fashion,Shoes,Allen Solly,All Season,4454.61,32.72,Dhillon Inc,243
+635,Fashion,Jeans,FabIndia,All Season,2451.39,31.58,Borde-Bhavsar,766
+636,Fashion,Jeans,Allen Solly,All Season,3777.19,32.49,Ramaswamy-Pillai,902
+637,Fashion,Jeans,Biba,All Season,4508.64,30.51,Nadig Ltd,680
+638,Fashion,Jeans,Levis,All Season,3223.96,29.15,Gopal-Ramaswamy,1188
+639,Fashion,Shoes,Peter England,All Season,2356.29,34.07,"Goyal, Bora and Sampath",500
+640,Fashion,Kurta,Peter England,Festive,1921.47,28.33,Chauhan-Amble,385
+641,Fashion,Saree,Levis,Festive,4367.42,33.2,Sankar Ltd,232
+642,Fashion,Saree,Biba,Festive,3277.3,27.09,Seth-Ramesh,121
+643,Fashion,Saree,Peter England,Festive,3531.63,25.06,Lala and Sons,91
+644,Fashion,Shoes,Peter England,All Season,3067.05,26.08,Kurian LLC,638
+645,Fashion,Shoes,Levis,All Season,4397.49,32.69,Kapadia Group,750
+646,Fashion,Jeans,Allen Solly,All Season,2690.3,34.19,Babu-Chana,84
+647,Fashion,Saree,Peter England,Festive,4486.52,28.84,Lanka Group,170
+648,Fashion,Saree,Allen Solly,Festive,5680.41,34.37,Yadav Ltd,163
+649,Fashion,Kurta,Levis,Festive,939.12,34.58,Kashyap Inc,958
+650,Fashion,Kurta,Biba,Festive,2596.41,31.99,Loyal Group,956
+651,Fashion,Jeans,Allen Solly,All Season,3546.66,29.04,Som Ltd,337
+652,Fashion,Shoes,Levis,All Season,1663.47,27.98,Pai-Date,562
+653,Fashion,Saree,FabIndia,Festive,1452.39,29.34,Palla Inc,1476
+654,Fashion,Shoes,FabIndia,All Season,3258.24,31.08,Lad-Das,132
+655,Fashion,Saree,FabIndia,Festive,3461.42,26.67,Nadig and Sons,525
+656,Fashion,Jeans,Biba,All Season,1585.46,30.66,Dugal and Sons,297
+657,Fashion,Saree,Biba,Festive,1745.44,25.7,Saha-Kala,563
+658,Fashion,Kurta,Biba,Festive,1440.76,33.63,Dar-Sastry,787
+659,Fashion,Saree,Levis,Festive,2327.76,27.57,Dugar-Mitra,677
+660,Fashion,Saree,Allen Solly,Festive,2498.45,32.86,"Chand, Kadakia and Ramesh",350
+661,Fashion,Kurta,Levis,Festive,2673.87,34.09,Choudhury PLC,1152
+662,Fashion,Jeans,Biba,All Season,4936.11,27.83,Ganesh-Ganguly,1473
+663,Fashion,Shoes,Allen Solly,All Season,4851.27,28.45,Kala-Mannan,1594
+664,Fashion,Jeans,Levis,All Season,3439.25,32.72,Issac and Sons,73
+665,Fashion,Jeans,FabIndia,All Season,3744.65,30.71,Varkey-Chanda,315
+666,Fashion,Jeans,FabIndia,All Season,3646.92,28.65,Ganguly PLC,512
+667,Fashion,Jeans,Peter England,All Season,1969.13,27.75,Kata-Nagarajan,160
+668,Fashion,Kurta,Levis,Festive,2010.43,26.52,Konda Ltd,668
+669,Fashion,Shoes,FabIndia,All Season,5821.56,25.89,Sampath Inc,750
+670,Fashion,Shoes,FabIndia,All Season,2307.73,32.2,"Pingle, Naik and Padmanabhan",987
+671,Fashion,Kurta,Levis,Festive,1326.51,27.3,"Seth, Divan and Chacko",781
+672,Fashion,Saree,Biba,Festive,3736.17,32.22,Comar and Sons,997
+673,Fashion,Shoes,Biba,All Season,3517.01,28.96,Natarajan-Wason,693
+674,Fashion,Kurta,Biba,Festive,2788.94,31.08,Sheth-Edwin,436
+675,Fashion,Kurta,FabIndia,Festive,2307.33,31.78,"Chandra, Nazareth and Subramaniam",57
+676,Fashion,Saree,Allen Solly,Festive,4269.79,32.86,Dua Group,293
+677,Fashion,Jeans,FabIndia,All Season,3609.16,26.15,Bansal-Bal,848
+678,Fashion,Saree,Levis,Festive,2094.57,30.87,Dugal-Nair,699
+679,Fashion,Jeans,Biba,All Season,3301.06,30.69,Palla Group,478
+680,Fashion,Kurta,Biba,Festive,1022.24,28.53,"Boase, Kurian and Savant",1187
+681,Fashion,Shoes,Levis,All Season,2177.19,27.41,Patil Group,682
+682,Fashion,Kurta,Allen Solly,Festive,1153.16,31.91,Yohannan Inc,130
+683,Fashion,Jeans,FabIndia,All Season,4627.89,32.57,Mangat-Yogi,529
+684,Fashion,Saree,Levis,Festive,2250.19,28.3,Agate Inc,360
+685,Fashion,Kurta,Allen Solly,Festive,1148.9,28.06,Bhardwaj-Bobal,387
+686,Fashion,Shoes,Biba,All Season,2055.45,25.97,Sachar-Ghosh,408
+687,Fashion,Kurta,Biba,Festive,2753.49,33.96,Murthy Group,1110
+688,Fashion,Jeans,Levis,All Season,1711.94,34.82,Deshpande LLC,627
+689,Fashion,Shoes,Levis,All Season,2296.24,30.31,Seshadri-Sawhney,40
+690,Fashion,Shoes,Peter England,All Season,3200.74,34.96,"Tripathi, Barad and Lal",40
+691,Fashion,Jeans,Biba,All Season,2884.51,33.91,Taneja Inc,371
+692,Fashion,Shoes,Peter England,All Season,5073.91,34.03,"Salvi, Kalla and Samra",523
+693,Fashion,Shoes,FabIndia,All Season,5212.73,32.07,"Bhatnagar, Rana and Deep",919
+694,Fashion,Kurta,Allen Solly,Festive,932.67,29.4,Gupta Group,998
+695,Fashion,Saree,Allen Solly,Festive,3433.57,34.95,Rao-Das,910
+696,Fashion,Saree,Levis,Festive,1956.15,31.49,Shere Ltd,482
+697,Fashion,Jeans,Biba,All Season,1543.86,30.05,Tank Group,94
+698,Fashion,Shoes,Allen Solly,All Season,4953.44,26.71,Acharya-Shetty,570
+699,Fashion,Saree,FabIndia,Festive,3005.69,25.27,"Dada, Chopra and Ratta",64
+700,Fashion,Jeans,Peter England,All Season,2442.8,34.7,Bedi-Varkey,1001
+701,Fashion,Shoes,Allen Solly,All Season,3971.89,27.43,Sami and Sons,886
+702,Fashion,Jeans,Allen Solly,All Season,1661.23,32.72,Chaudry Ltd,274
+703,Fashion,Jeans,Biba,All Season,3732.6,32.39,Devi-Kohli,375
+704,Fashion,Saree,Biba,Festive,5143.95,28.16,Gulati LLC,714
+705,Fashion,Saree,FabIndia,Festive,4350.79,25.25,"Prabhu, Shan and Bhat",1031
+706,Fashion,Kurta,Allen Solly,Festive,1442.57,34.15,Anand-Oak,900
+707,Fashion,Saree,Biba,Festive,2874.64,33.55,Saha and Sons,243
+708,Fashion,Jeans,FabIndia,All Season,3807.0,25.22,"Palla, Chaudhari and Tiwari",630
+709,Fashion,Jeans,FabIndia,All Season,1773.2,28.42,Mohan-Khare,218
+710,Fashion,Shoes,Biba,All Season,1848.84,26.14,"Sha, Modi and Kadakia",121
+711,Fashion,Kurta,FabIndia,Festive,1003.66,28.79,"Kaur, Muni and Bhandari",173
+712,Fashion,Jeans,FabIndia,All Season,2590.88,26.91,Dhar Inc,247
+713,Fashion,Shoes,Biba,All Season,2235.18,28.58,"Bansal, D’Alia and Khare",560
+714,Fashion,Kurta,Levis,Festive,1063.22,33.13,Kanda Ltd,52
+715,Fashion,Saree,FabIndia,Festive,6320.47,34.66,Sachdev and Sons,446
+716,Fashion,Jeans,Allen Solly,All Season,3829.29,33.68,"Parmer, Bakshi and Brahmbhatt",1087
+717,Fashion,Saree,FabIndia,Festive,2039.94,25.74,"Bera, Murty and Tara",490
+718,Fashion,Shoes,Peter England,All Season,2635.12,30.0,"Pathak, Nayak and Kata",229
+719,Fashion,Saree,FabIndia,Festive,2818.28,26.74,Gill-Madan,1070
+720,Fashion,Kurta,FabIndia,Festive,1820.56,25.8,Varughese-Baral,535
+721,Fashion,Kurta,Levis,Festive,2364.65,31.89,Gole Inc,117
+722,Fashion,Shoes,Peter England,All Season,2786.42,33.67,"Toor, Tara and Badal",923
+723,Fashion,Kurta,FabIndia,Festive,2017.31,34.56,Rao-Bobal,333
+724,Fashion,Shoes,Levis,All Season,4900.41,34.12,Lad Ltd,822
+725,Fashion,Jeans,Levis,All Season,3453.52,33.37,"Sharaf, Chandra and Puri",511
+726,Fashion,Shoes,FabIndia,All Season,4597.39,29.74,Mohan-Bava,389
+727,Fashion,Shoes,Levis,All Season,2500.37,25.82,Hayre and Sons,638
+728,Fashion,Kurta,Levis,Festive,2918.33,26.8,Dhawan LLC,324
+729,Fashion,Jeans,Levis,All Season,2756.14,34.95,Bath-Goswami,77
+730,Fashion,Shoes,Biba,All Season,1766.59,25.39,Wason Ltd,396
+731,Fashion,Kurta,FabIndia,Festive,2400.24,28.73,"Sandal, Bora and Palla",876
+732,Fashion,Shoes,Biba,All Season,3993.85,29.3,Saha and Sons,190
+733,Fashion,Kurta,Allen Solly,Festive,1648.19,28.96,"Bhat, Nanda and Vig",307
+734,Fashion,Saree,Peter England,Festive,2275.68,32.79,Sem Inc,75
+735,Fashion,Saree,FabIndia,Festive,4148.19,28.33,"Gara, Golla and Barad",214
+736,Fashion,Kurta,Biba,Festive,1402.59,30.97,"Pillay, Arora and Jhaveri",301
+737,Fashion,Saree,FabIndia,Festive,5446.14,26.9,Narayanan LLC,469
+738,Fashion,Kurta,Levis,Festive,3523.4,29.82,"Sharma, Bobal and Bakshi",919
+739,Fashion,Shoes,Peter England,All Season,5496.41,34.98,Jha Ltd,773
+740,Fashion,Shoes,FabIndia,All Season,2816.3,28.81,"Bal, Chakraborty and Narayan",142
+741,Fashion,Jeans,Levis,All Season,2823.96,29.49,Doshi-Morar,1408
+742,Fashion,Shoes,Allen Solly,All Season,3092.96,30.67,Atwal PLC,54
+743,Fashion,Jeans,Levis,All Season,3991.84,29.38,Gola LLC,831
+744,Fashion,Shoes,Allen Solly,All Season,3784.13,25.01,"Aggarwal, Parekh and Pandit",40
+745,Fashion,Jeans,Peter England,All Season,1795.88,28.96,Jani PLC,154
+746,Fashion,Shoes,Allen Solly,All Season,3745.81,26.58,"Goel, Behl and Barad",684
+747,Fashion,Jeans,Biba,All Season,2321.93,27.73,"Munshi, Kalla and Varkey",40
+748,Fashion,Jeans,Biba,All Season,2412.18,27.56,Kar-Lata,428
+749,Fashion,Kurta,FabIndia,Festive,991.19,25.62,Narayanan and Sons,356
+750,Fashion,Kurta,Allen Solly,Festive,1146.67,28.11,Prabhakar-Kuruvilla,600
+751,Fashion,Jeans,FabIndia,All Season,2146.42,32.48,Sachar Inc,789
+752,Fashion,Kurta,Levis,Festive,2710.82,29.6,Radhakrishnan-Ghose,1355
+753,Fashion,Kurta,Biba,Festive,2962.39,32.33,Khurana-Chanda,940
+754,Fashion,Kurta,Levis,Festive,1947.95,30.01,"Contractor, Hora and Kaul",683
+755,Fashion,Jeans,FabIndia,All Season,3581.1,34.78,Dhawan-Yogi,107
+756,Fashion,Jeans,Levis,All Season,3449.3,29.44,Solanki Inc,1655
+757,Fashion,Shoes,Biba,All Season,1624.11,33.21,"Jayaraman, Wason and Panchal",347
+758,Fashion,Kurta,FabIndia,Festive,2195.18,32.7,Johal-Minhas,393
+759,Fashion,Saree,Levis,Festive,3095.14,33.5,Tailor Inc,347
+760,Fashion,Shoes,Allen Solly,All Season,5236.8,33.38,"Rajan, Deo and Sengupta",235
+761,Fashion,Shoes,Levis,All Season,2343.02,27.88,Kunda Group,600
+762,Fashion,Kurta,Allen Solly,Festive,1884.44,27.4,"Bobal, Rege and Chawla",1179
+763,Fashion,Kurta,Levis,Festive,1884.01,34.48,"Chaudhary, Chauhan and Purohit",802
+764,Fashion,Jeans,FabIndia,All Season,2090.55,30.78,Comar PLC,1179
+765,Fashion,Shoes,Allen Solly,All Season,2439.32,26.83,Nadig-Venkatesh,402
+766,Fashion,Jeans,Levis,All Season,4833.92,34.22,Trivedi and Sons,362
+767,Fashion,Shoes,Biba,All Season,3441.48,29.69,Thaker Ltd,728
+768,Fashion,Saree,Allen Solly,Festive,3133.68,26.36,Bhatia PLC,810
+769,Fashion,Jeans,Biba,All Season,3504.02,28.2,Nagarajan-Narayanan,614
+770,Fashion,Saree,Levis,Festive,4568.15,27.14,"Kala, Ramesh and Bahri",760
+771,Fashion,Jeans,Levis,All Season,1584.26,33.96,Bhakta-Hari,975
+772,Fashion,Jeans,Levis,All Season,4563.4,29.82,Tailor-Bakshi,736
+773,Fashion,Kurta,Levis,Festive,1431.24,29.01,Chakrabarti-Bhakta,979
+774,Fashion,Saree,Biba,Festive,3893.89,28.7,"Raju, Kala and Bail",85
+775,Fashion,Shoes,Levis,All Season,1613.2,32.73,"Srivastava, Konda and Krishna",680
+776,Fashion,Jeans,FabIndia,All Season,1601.38,31.88,Kalla Ltd,160
+777,Fashion,Saree,FabIndia,Festive,3933.15,33.01,"Manda, Vasa and Khalsa",1009
+778,Fashion,Kurta,Levis,Festive,2097.61,33.38,Chacko Inc,625
+779,Fashion,Shoes,FabIndia,All Season,4168.38,30.54,Dhawan-Shankar,455
+780,Fashion,Kurta,Levis,Festive,1702.76,27.87,Deep PLC,863
+781,Fashion,Kurta,Levis,Festive,1956.43,26.93,Nigam LLC,951
+782,Fashion,Jeans,FabIndia,All Season,2699.19,28.95,Pradhan-Das,1405
+783,Fashion,Jeans,Levis,All Season,3999.76,25.4,Tara-Badami,226
+784,Fashion,Jeans,Allen Solly,All Season,3193.75,29.28,Subramanian LLC,55
+785,Fashion,Shoes,Biba,All Season,2586.65,27.99,Chandran-Naidu,926
+786,Fashion,Saree,Biba,Festive,3483.9,33.01,"Swamy, Kibe and Sahni",376
+787,Fashion,Kurta,Levis,Festive,3477.84,31.83,Kala Inc,382
+788,Fashion,Shoes,Peter England,All Season,1520.27,32.77,Ganguly-Gupta,434
+789,Fashion,Jeans,FabIndia,All Season,3209.57,29.61,"Ahuja, Rao and Ramaswamy",319
+790,Fashion,Shoes,FabIndia,All Season,2523.23,33.93,"Banik, Mohanty and Rajagopalan",303
+791,Fashion,Jeans,Levis,All Season,2572.58,33.99,Ghose-Sawhney,971
+792,Fashion,Shoes,Biba,All Season,3308.34,32.18,Hora-Lad,40
+793,Fashion,Kurta,Biba,Festive,2076.73,31.77,Atwal PLC,258
+794,Fashion,Kurta,FabIndia,Festive,1506.21,25.7,"Dubey, Seshadri and Balasubramanian",180
+795,Fashion,Shoes,Levis,All Season,4241.19,29.9,Banerjee Ltd,1313
+796,Fashion,Saree,Peter England,Festive,3703.02,30.65,Nigam-Divan,108
+797,Fashion,Saree,Levis,Festive,1387.64,30.71,Sankaran PLC,106
+798,Fashion,Jeans,Levis,All Season,3330.82,25.22,Narang-Raman,260
+799,Fashion,Jeans,Allen Solly,All Season,2685.29,31.6,Narayanan-Vora,446
+800,Fashion,Kurta,Levis,Festive,2767.49,27.62,"Mann, Khosla and Deshpande",55
+801,Home Appliances,Mixer,Prestige,All Season,3207.04,8.17,Zacharia-Bahl,925
+802,Home Appliances,Mixer,Bajaj,All Season,4979.02,12.31,"Sama, Sule and Natt",714
+803,Home Appliances,Microwave,Usha,All Season,7760.15,14.68,Nadkarni LLC,40
+804,Home Appliances,Microwave,Philips,All Season,5616.18,8.72,"Sarna, Rattan and Parmer",184
+805,Home Appliances,Washing Machine,Prestige,All Season,32713.9,9.66,Sidhu-Nazareth,669
+806,Home Appliances,Washing Machine,Bajaj,All Season,23221.67,10.54,Parsa LLC,172
+807,Home Appliances,Microwave,Philips,All Season,11103.22,10.74,Shetty Inc,42
+808,Home Appliances,Microwave,Bajaj,All Season,12980.29,11.61,Shukla Inc,1002
+809,Home Appliances,Washing Machine,Butterfly,All Season,20391.66,13.52,Sinha-Radhakrishnan,1032
+810,Home Appliances,Mixer,Bajaj,All Season,5492.85,14.4,Murty-Sura,62
+811,Home Appliances,Mixer,Bajaj,All Season,6000.61,14.19,Gopal and Sons,153
+812,Home Appliances,Microwave,Prestige,All Season,7723.2,10.93,Apte Inc,580
+813,Home Appliances,Mixer,Philips,All Season,1769.98,13.01,Ben LLC,159
+814,Home Appliances,Mixer,Philips,All Season,3118.2,9.84,Sandal-Thaman,282
+815,Home Appliances,Mixer,Philips,All Season,3742.76,10.59,Srivastava Group,79
+816,Home Appliances,Washing Machine,Usha,All Season,23626.52,8.64,Nori-Nagy,82
+817,Home Appliances,Microwave,Philips,All Season,8221.0,11.67,Devi-Chowdhury,680
+818,Home Appliances,Microwave,Philips,All Season,5943.15,9.33,Sundaram-Raman,652
+819,Home Appliances,Washing Machine,Philips,All Season,21188.92,11.67,Lalla Inc,1140
+820,Home Appliances,Microwave,Philips,All Season,13269.86,12.65,"Dasgupta, Pall and Verma",331
+821,Home Appliances,Washing Machine,Prestige,All Season,16837.26,8.85,Pai Inc,462
+822,Home Appliances,Mixer,Philips,All Season,6238.16,12.37,Tella-Chand,1099
+823,Home Appliances,Microwave,Prestige,All Season,9182.05,13.8,Grewal LLC,857
+824,Home Appliances,Microwave,Bajaj,All Season,10607.61,12.45,Rastogi Group,1283
+825,Home Appliances,Mixer,Philips,All Season,4098.08,10.11,Choudhry PLC,338
+826,Home Appliances,Mixer,Bajaj,All Season,5465.84,14.0,Bandi-Chaudry,150
+827,Home Appliances,Washing Machine,Usha,All Season,39394.45,9.95,Chhabra-Kaur,94
+828,Home Appliances,Washing Machine,Prestige,All Season,14143.32,11.06,Hora LLC,93
+829,Home Appliances,Washing Machine,Prestige,All Season,20909.16,11.58,Pingle PLC,942
+830,Home Appliances,Washing Machine,Philips,All Season,22665.81,13.31,"Bhatia, Borah and Halder",1108
+831,Home Appliances,Washing Machine,Bajaj,All Season,27141.34,13.54,Wali-Grover,202
+832,Home Appliances,Microwave,Bajaj,All Season,10295.33,12.49,Taneja-Date,426
+833,Home Appliances,Washing Machine,Philips,All Season,17012.57,11.42,"Tara, Rana and Ravel",1553
+834,Home Appliances,Washing Machine,Bajaj,All Season,35534.95,8.99,"Som, Peri and Kothari",507
+835,Home Appliances,Mixer,Philips,All Season,4456.02,9.98,Varkey and Sons,275
+836,Home Appliances,Microwave,Prestige,All Season,11970.99,13.61,"Mukhopadhyay, Upadhyay and Mital",505
+837,Home Appliances,Microwave,Prestige,All Season,5352.17,11.52,"Mahajan, Kaul and Mohanty",99
+838,Home Appliances,Washing Machine,Prestige,All Season,18925.14,8.97,Basak LLC,532
+839,Home Appliances,Washing Machine,Philips,All Season,25879.6,12.74,"Choudhary, Pall and Tank",807
+840,Home Appliances,Washing Machine,Prestige,All Season,33005.13,8.04,Ramakrishnan LLC,125
+841,Home Appliances,Washing Machine,Butterfly,All Season,43608.18,11.49,Devi Inc,1286
+842,Home Appliances,Microwave,Philips,All Season,7233.42,12.36,Bhavsar-Reddy,1192
+843,Home Appliances,Washing Machine,Prestige,All Season,27640.32,12.09,"Doctor, Goyal and Shenoy",266
+844,Home Appliances,Mixer,Prestige,All Season,5883.69,9.37,"Ahluwalia, Dutta and Sura",211
+845,Home Appliances,Mixer,Prestige,All Season,4672.42,8.31,Char Ltd,289
+846,Home Appliances,Washing Machine,Philips,All Season,18812.85,8.79,Dubey and Sons,336
+847,Home Appliances,Microwave,Prestige,All Season,7196.31,9.89,"Biswas, Krishnan and Lalla",660
+848,Home Appliances,Mixer,Philips,All Season,3529.82,9.61,"Handa, Subramanian and Krishnan",442
+849,Home Appliances,Mixer,Bajaj,All Season,4128.12,13.6,Iyer Group,122
+850,Home Appliances,Mixer,Prestige,All Season,4890.32,10.19,"Bansal, Butala and Vohra",1062
+851,Home Appliances,Washing Machine,Butterfly,All Season,20697.56,9.85,Savant Inc,304
+852,Home Appliances,Mixer,Prestige,All Season,2716.2,8.01,"Srinivas, Gera and Rao",480
+853,Home Appliances,Mixer,Philips,All Season,4207.03,11.15,Chopra PLC,667
+854,Home Appliances,Mixer,Usha,All Season,5150.77,11.56,Wadhwa LLC,441
+855,Home Appliances,Microwave,Philips,All Season,6433.76,11.71,Raja-Sawhney,694
+856,Home Appliances,Mixer,Butterfly,All Season,2013.86,8.03,Shukla Inc,1379
+857,Home Appliances,Washing Machine,Philips,All Season,25124.58,13.91,Dhaliwal-Mohanty,201
+858,Home Appliances,Microwave,Philips,All Season,11001.53,9.68,"Pau, Agrawal and Gokhale",1541
+859,Home Appliances,Washing Machine,Bajaj,All Season,18973.06,11.06,Lad-Radhakrishnan,1475
+860,Home Appliances,Washing Machine,Philips,All Season,23338.66,12.68,Reddy PLC,1203
+861,Home Appliances,Washing Machine,Prestige,All Season,20931.95,11.35,Puri LLC,1025
+862,Home Appliances,Microwave,Butterfly,All Season,5876.05,9.88,Mody Group,417
+863,Home Appliances,Microwave,Bajaj,All Season,7659.14,9.1,Brahmbhatt-Solanki,949
+864,Home Appliances,Mixer,Prestige,All Season,3193.26,9.91,Devi Group,625
+865,Home Appliances,Mixer,Bajaj,All Season,2652.24,8.62,"Dar, Bali and Comar",305
+866,Home Appliances,Mixer,Prestige,All Season,2945.61,10.21,"Devi, Dani and Barad",1231
+867,Home Appliances,Washing Machine,Prestige,All Season,16206.8,9.11,"Kapur, Deo and Raval",599
+868,Home Appliances,Washing Machine,Prestige,All Season,26863.85,9.48,Merchant Inc,776
+869,Home Appliances,Washing Machine,Philips,All Season,29378.52,9.14,Mann PLC,436
+870,Home Appliances,Washing Machine,Philips,All Season,24901.18,12.83,Bhatnagar Ltd,1060
+871,Home Appliances,Mixer,Butterfly,All Season,6680.0,10.29,"Brar, Suresh and Arora",393
+872,Home Appliances,Microwave,Philips,All Season,8432.42,9.1,Prashad-Narang,338
+873,Home Appliances,Washing Machine,Philips,All Season,30184.95,9.68,"Ganguly, Saxena and Garde",181
+874,Home Appliances,Washing Machine,Bajaj,All Season,26126.41,10.93,"Kibe, Palla and Ratti",289
+875,Home Appliances,Mixer,Prestige,All Season,3242.24,9.1,Choudhry Group,1416
+876,Home Appliances,Washing Machine,Butterfly,All Season,25499.76,9.37,"Padmanabhan, Dutt and Wason",40
+877,Home Appliances,Mixer,Philips,All Season,5685.57,11.79,Patel Group,265
+878,Home Appliances,Mixer,Prestige,All Season,2774.46,12.38,Sen-Balasubramanian,95
+879,Home Appliances,Washing Machine,Philips,All Season,19676.32,11.65,Joshi-Ghose,617
+880,Home Appliances,Microwave,Bajaj,All Season,13988.74,8.59,Mann-Chacko,393
+881,Home Appliances,Washing Machine,Philips,All Season,29259.48,8.63,"Khosla, Narang and Mani",1383
+882,Home Appliances,Microwave,Bajaj,All Season,6867.97,11.99,"Pai, Dave and Kashyap",1164
+883,Home Appliances,Washing Machine,Bajaj,All Season,31295.68,11.67,Krish-Banerjee,884
+884,Home Appliances,Mixer,Prestige,All Season,3625.41,13.93,"Sane, Narula and Narayan",667
+885,Home Appliances,Microwave,Prestige,All Season,6871.68,8.94,"Rana, Kakar and Varghese",355
+886,Home Appliances,Washing Machine,Usha,All Season,23629.32,10.0,"Kaur, Behl and Lad",156
+887,Home Appliances,Washing Machine,Philips,All Season,19879.08,11.57,Ratta and Sons,1273
+888,Home Appliances,Microwave,Butterfly,All Season,9938.11,14.49,"Dave, Deshmukh and Badami",234
+889,Home Appliances,Microwave,Bajaj,All Season,10094.31,12.59,Nayak Group,512
+890,Home Appliances,Washing Machine,Butterfly,All Season,14779.19,13.43,"Nigam, Borra and Sehgal",947
+891,Home Appliances,Mixer,Butterfly,All Season,6380.93,8.54,"Char, Bhat and Chakrabarti",1467
+892,Home Appliances,Microwave,Bajaj,All Season,8038.58,9.16,Sandal Ltd,281
+893,Home Appliances,Microwave,Prestige,All Season,6357.91,10.4,"Sastry, Sarkar and Chowdhury",45
+894,Home Appliances,Microwave,Philips,All Season,8364.81,14.94,Wason-Aggarwal,261
+895,Home Appliances,Washing Machine,Philips,All Season,22943.09,8.32,Sachdev Ltd,476
+896,Home Appliances,Washing Machine,Butterfly,All Season,14748.87,8.46,"Prakash, Magar and Ratta",371
+897,Home Appliances,Microwave,Philips,All Season,6713.16,8.33,Saran-Parmer,473
+898,Home Appliances,Mixer,Prestige,All Season,4104.03,14.72,Wali-Magar,967
+899,Home Appliances,Mixer,Bajaj,All Season,3806.48,9.93,Kapadia PLC,213
+900,Home Appliances,Microwave,Prestige,All Season,6428.73,14.64,Dey LLC,407
+901,Home Appliances,Mixer,Philips,All Season,4900.38,13.52,Saxena-Saraf,785
+902,Home Appliances,Mixer,Bajaj,All Season,6736.31,13.93,"Bedi, Singhal and Karnik",784
+903,Home Appliances,Washing Machine,Philips,All Season,33455.81,8.88,"Gandhi, Subramanian and Kuruvilla",66
+904,Home Appliances,Microwave,Prestige,All Season,9185.69,14.78,"Chander, Vyas and Subramaniam",919
+905,Home Appliances,Microwave,Philips,All Season,13344.85,12.89,Mukhopadhyay-Balay,1093
+906,Home Appliances,Microwave,Prestige,All Season,10090.95,9.99,"Chand, Kumar and Palan",134
+907,Home Appliances,Washing Machine,Butterfly,All Season,22638.48,11.6,De and Sons,1128
+908,Home Appliances,Microwave,Philips,All Season,8566.09,12.24,"Sood, Divan and Doctor",1124
+909,Home Appliances,Mixer,Philips,All Season,2537.51,14.53,"Sandhu, Chawla and Basak",40
+910,Home Appliances,Washing Machine,Philips,All Season,17604.08,10.24,Bhat-Dasgupta,732
+911,Home Appliances,Washing Machine,Butterfly,All Season,12393.35,8.24,Chad Ltd,626
+912,Home Appliances,Microwave,Bajaj,All Season,9785.63,12.2,"Wali, Kala and Doshi",1177
+913,Home Appliances,Mixer,Bajaj,All Season,4993.95,13.27,"Khare, Kulkarni and Mann",453
+914,Home Appliances,Microwave,Philips,All Season,10231.75,14.54,Padmanabhan-Master,1088
+915,Home Appliances,Washing Machine,Philips,All Season,25363.21,12.64,"Mukhopadhyay, Chadha and Kar",499
+916,Home Appliances,Washing Machine,Prestige,All Season,28161.88,9.36,"Bail, Dayal and Sidhu",296
+917,Home Appliances,Microwave,Butterfly,All Season,11329.37,14.4,Chana Inc,719
+918,Home Appliances,Washing Machine,Usha,All Season,14668.27,8.47,Baral LLC,1494
+919,Home Appliances,Washing Machine,Philips,All Season,16494.87,10.6,Pal-Mahal,188
+920,Home Appliances,Mixer,Philips,All Season,5523.34,11.32,Dutta Group,484
+921,Home Appliances,Washing Machine,Philips,All Season,16736.79,14.4,Cherian-Singhal,876
+922,Home Appliances,Microwave,Bajaj,All Season,8552.02,14.54,"Zacharia, Sandhu and Dugar",467
+923,Home Appliances,Washing Machine,Usha,All Season,16613.58,9.79,Bhalla-Kant,376
+924,Home Appliances,Microwave,Prestige,All Season,6098.69,8.21,Chaudhuri-Sarkar,616
+925,Home Appliances,Mixer,Philips,All Season,3554.95,14.0,Narayan-Oak,231
+926,Home Appliances,Mixer,Prestige,All Season,3711.55,9.47,"Pingle, Aggarwal and Sur",511
+927,Home Appliances,Mixer,Prestige,All Season,2852.2,9.42,Bal and Sons,483
+928,Home Appliances,Washing Machine,Philips,All Season,25156.88,10.23,Kapadia Inc,482
+929,Home Appliances,Microwave,Philips,All Season,6797.57,11.2,Patla-Bahl,1545
+930,Home Appliances,Washing Machine,Prestige,All Season,16156.54,8.66,"Patla, Ramanathan and Prashad",61
+931,Home Appliances,Mixer,Butterfly,All Season,4318.31,12.2,Bedi LLC,182
+932,Home Appliances,Mixer,Prestige,All Season,2018.89,10.98,Goda Inc,953
+933,Home Appliances,Washing Machine,Philips,All Season,14039.61,13.91,Dugar Ltd,175
+934,Home Appliances,Mixer,Philips,All Season,2890.15,10.99,Thakur-Nori,1021
+935,Home Appliances,Microwave,Usha,All Season,14404.97,9.66,Thakkar PLC,312
+936,Home Appliances,Mixer,Philips,All Season,5256.3,11.56,"Mohan, Devan and Dhillon",488
+937,Home Appliances,Microwave,Bajaj,All Season,11677.6,13.03,Chokshi-Khare,745
+938,Home Appliances,Washing Machine,Butterfly,All Season,19045.36,11.62,"Thaman, Subramanian and Borra",999
+939,Home Appliances,Mixer,Butterfly,All Season,4458.57,11.9,"Setty, Anne and Chaudry",1615
+940,Home Appliances,Microwave,Prestige,All Season,6398.31,13.67,Konda Ltd,933
+941,Home Appliances,Microwave,Philips,All Season,12328.38,12.8,"Munshi, Oza and Gour",394
+942,Home Appliances,Microwave,Philips,All Season,6338.74,14.37,"Das, Sanghvi and Goswami",40
+943,Home Appliances,Washing Machine,Bajaj,All Season,22728.64,10.36,"Nadkarni, Cheema and Krishnamurthy",40
+944,Home Appliances,Washing Machine,Philips,All Season,29657.77,11.32,"Deep, Tak and Buch",40
+945,Home Appliances,Microwave,Philips,All Season,4517.32,9.21,Mishra-Rajan,1010
+946,Home Appliances,Microwave,Bajaj,All Season,7817.73,10.13,"Dani, Panchal and Modi",853
+947,Home Appliances,Mixer,Philips,All Season,3155.55,12.56,Gill-Loke,773
+948,Home Appliances,Mixer,Bajaj,All Season,6257.88,13.93,Murty LLC,1244
+949,Home Appliances,Washing Machine,Bajaj,All Season,26643.82,12.02,Parsa Inc,344
+950,Home Appliances,Microwave,Prestige,All Season,9576.65,11.93,Swamy-Raman,473
+951,Home Appliances,Mixer,Butterfly,All Season,3640.6,14.26,Bera-Khare,1152
+952,Home Appliances,Mixer,Philips,All Season,4536.98,8.66,Bhagat-Rajagopalan,692
+953,Home Appliances,Mixer,Bajaj,All Season,3566.9,13.56,Goel LLC,349
+954,Home Appliances,Washing Machine,Philips,All Season,28634.22,10.08,Iyer PLC,221
+955,Home Appliances,Mixer,Philips,All Season,4455.22,12.61,Hora-Kala,1168
+956,Home Appliances,Microwave,Usha,All Season,7199.87,11.37,"Walla, Parikh and Wable",242
+957,Home Appliances,Mixer,Prestige,All Season,3521.12,8.01,Bali Inc,867
+958,Home Appliances,Microwave,Philips,All Season,12794.68,10.25,Seth PLC,643
+959,Home Appliances,Mixer,Prestige,All Season,6171.9,12.13,Kumar Ltd,776
+960,Home Appliances,Microwave,Prestige,All Season,13006.87,14.62,Kala-Ahuja,1114
+961,Home Appliances,Washing Machine,Philips,All Season,30747.64,10.46,Choudhary-Lanka,914
+962,Home Appliances,Microwave,Bajaj,All Season,9484.47,8.84,Bhattacharyya-Yadav,82
+963,Home Appliances,Washing Machine,Philips,All Season,30608.74,11.22,"Shroff, Prashad and Tara",379
+964,Home Appliances,Mixer,Usha,All Season,3890.83,10.56,Choudhary LLC,479
+965,Home Appliances,Mixer,Prestige,All Season,6208.11,9.44,"Palan, Madan and Krishnamurthy",368
+966,Home Appliances,Microwave,Bajaj,All Season,10883.17,11.27,Radhakrishnan-Dar,40
+967,Home Appliances,Mixer,Philips,All Season,2481.16,8.83,Chand and Sons,1532
+968,Home Appliances,Mixer,Philips,All Season,4125.02,12.75,"Saha, Chander and Lad",715
+969,Home Appliances,Mixer,Prestige,All Season,5729.68,13.46,Sastry-Kadakia,148
+970,Home Appliances,Mixer,Bajaj,All Season,4677.69,14.07,Lanka PLC,131
+971,Home Appliances,Mixer,Philips,All Season,4106.57,9.83,Radhakrishnan-Murthy,927
+972,Home Appliances,Microwave,Prestige,All Season,11328.74,10.56,Ramachandran Ltd,225
+973,Home Appliances,Microwave,Prestige,All Season,13018.87,10.29,Dugal LLC,308
+974,Home Appliances,Washing Machine,Bajaj,All Season,15389.98,9.33,"Bahl, Randhawa and Mohanty",523
+975,Home Appliances,Microwave,Prestige,All Season,11549.87,8.65,Dani Group,1325
+976,Home Appliances,Mixer,Philips,All Season,2045.02,13.26,Dube-Basu,481
+977,Home Appliances,Washing Machine,Prestige,All Season,39274.7,9.19,"Ratta, Tripathi and Kurian",654
+978,Home Appliances,Microwave,Bajaj,All Season,8313.89,14.68,"Borde, Sood and Misra",1040
+979,Home Appliances,Washing Machine,Bajaj,All Season,39391.15,12.78,Wable-Kapoor,1537
+980,Home Appliances,Microwave,Philips,All Season,7379.3,11.08,Kulkarni-Sarkar,761
+981,Home Appliances,Mixer,Butterfly,All Season,4426.82,8.96,Krishna Group,922
+982,Home Appliances,Mixer,Prestige,All Season,5341.97,9.0,Sahni-Malhotra,211
+983,Home Appliances,Mixer,Usha,All Season,3808.33,10.71,Bhardwaj Ltd,241
+984,Home Appliances,Mixer,Bajaj,All Season,5749.3,12.3,Johal-Manda,1408
+985,Home Appliances,Washing Machine,Prestige,All Season,18497.78,11.48,Jhaveri-Kaul,939
+986,Home Appliances,Mixer,Prestige,All Season,4263.4,13.61,Jani-Goyal,277
+987,Home Appliances,Washing Machine,Bajaj,All Season,27481.39,11.36,Vohra-Sankar,1324
+988,Home Appliances,Washing Machine,Butterfly,All Season,10682.72,12.17,"Kant, Bahl and Cherian",1007
+989,Home Appliances,Microwave,Butterfly,All Season,7083.73,12.43,"Padmanabhan, Pandya and Kalita",57
+990,Home Appliances,Washing Machine,Usha,All Season,37546.21,11.79,Kata PLC,242
+991,Home Appliances,Washing Machine,Prestige,All Season,25445.76,14.9,Nayak-Andra,1082
+992,Home Appliances,Mixer,Bajaj,All Season,5055.57,8.54,"Goel, Kuruvilla and Halder",459
+993,Home Appliances,Washing Machine,Philips,All Season,28323.03,14.51,Rana-Murty,1004
+994,Home Appliances,Microwave,Philips,All Season,10181.34,8.52,Sem and Sons,131
+995,Home Appliances,Mixer,Prestige,All Season,5513.66,13.73,Lala PLC,331
+996,Home Appliances,Washing Machine,Philips,All Season,26002.0,11.43,"Kari, Manda and Koshy",634
+997,Home Appliances,Washing Machine,Butterfly,All Season,25137.26,13.1,Walla-Dewan,909
+998,Home Appliances,Washing Machine,Philips,All Season,16875.39,11.64,"Dash, Bhakta and Balay",325
+999,Home Appliances,Microwave,Philips,All Season,10001.12,8.96,"Krishnamurthy, Dugal and Sharma",932
+1000,Home Appliances,Microwave,Prestige,All Season,9693.41,12.87,"Kadakia, Biswas and Pandey",631
+1001,Sports,Gym Gloves,Adidas,All Season,1372.21,19.13,Venkatesh-Uppal,468
+1002,Sports,Cricket Bat,Puma,All Season,4168.4,20.03,Savant-Madan,654
+1003,Sports,Cricket Bat,Decathlon,All Season,3482.21,24.45,"Solanki, Sanghvi and Sundaram",1134
+1004,Sports,Gym Gloves,Decathlon,All Season,1734.0,18.66,"Kata, Thaman and Kata",422
+1005,Sports,Cricket Bat,Skechers,All Season,3177.85,24.2,"Chawla, Keer and Das",305
+1006,Sports,Football,Skechers,All Season,1361.6,26.82,"Mukherjee, Srinivasan and Issac",574
+1007,Sports,Gym Gloves,Decathlon,All Season,403.43,26.26,Minhas-Nagar,200
+1008,Sports,Football,Adidas,All Season,1092.81,22.08,"Garg, Din and Desai",431
+1009,Sports,Cricket Bat,Nike,All Season,5594.02,27.76,"Nath, Prashad and Panchal",509
+1010,Sports,Football,Adidas,All Season,1488.26,27.0,Date LLC,536
+1011,Sports,Gym Gloves,Decathlon,All Season,1203.4,24.9,"Pai, Mohanty and Narang",671
+1012,Sports,Cricket Bat,Adidas,All Season,1431.52,28.0,Dhar-Swamy,641
+1013,Sports,Cricket Bat,Nike,All Season,4208.62,22.83,Nair PLC,103
+1014,Sports,Gym Gloves,Adidas,All Season,1053.34,18.57,Nori-Kibe,1370
+1015,Sports,Gym Gloves,Adidas,All Season,838.44,25.91,Das Group,412
+1016,Sports,Cricket Bat,Nike,All Season,3975.21,23.21,"Brahmbhatt, Chaudry and Mangat",123
+1017,Sports,Gym Gloves,Decathlon,All Season,932.99,19.42,Natarajan LLC,1080
+1018,Sports,Gym Gloves,Puma,All Season,537.28,22.89,Varkey Inc,554
+1019,Sports,Football,Adidas,All Season,2599.87,24.98,Jain LLC,1193
+1020,Sports,Cricket Bat,Adidas,All Season,1641.72,19.25,"Bassi, Rajagopal and Datta",584
+1021,Sports,Gym Gloves,Nike,All Season,953.02,22.34,"Rattan, Balakrishnan and Bail",497
+1022,Sports,Football,Nike,All Season,2448.01,24.43,"Rai, Dora and Sabharwal",40
+1023,Sports,Football,Nike,All Season,1878.16,22.98,Ravi Ltd,779
+1024,Sports,Gym Gloves,Puma,All Season,553.33,26.85,Saini-Hayer,474
+1025,Sports,Cricket Bat,Decathlon,All Season,1302.98,26.14,"Malhotra, Murty and Tiwari",136
+1026,Sports,Cricket Bat,Nike,All Season,1730.42,21.3,Ravi-Vyas,281
+1027,Sports,Football,Puma,All Season,3078.62,21.85,Manda LLC,518
+1028,Sports,Football,Nike,All Season,2415.07,24.89,Nath-Buch,1492
+1029,Sports,Cricket Bat,Decathlon,All Season,4146.0,21.61,Khosla-Sant,1113
+1030,Sports,Football,Skechers,All Season,2951.77,18.15,Suri-Bassi,52
+1031,Sports,Football,Adidas,All Season,1382.31,24.6,Rajagopalan Inc,368
+1032,Sports,Cricket Bat,Nike,All Season,2987.53,20.21,Mann and Sons,670
+1033,Sports,Cricket Bat,Decathlon,All Season,4365.4,21.39,Bora LLC,433
+1034,Sports,Gym Gloves,Puma,All Season,1017.79,21.3,Vig-Bansal,500
+1035,Sports,Cricket Bat,Decathlon,All Season,3705.69,26.45,Cheema-Barad,1076
+1036,Sports,Cricket Bat,Puma,All Season,4569.35,19.67,"Dass, Bhatti and Sarraf",826
+1037,Sports,Football,Nike,All Season,2902.6,23.45,Gokhale-Devi,1192
+1038,Sports,Football,Puma,All Season,2167.6,22.01,Borde-Rattan,666
+1039,Sports,Gym Gloves,Adidas,All Season,1617.51,21.65,"Balay, Goda and Bassi",230
+1040,Sports,Cricket Bat,Puma,All Season,2362.32,21.18,"Bhatti, Nadkarni and Trivedi",783
+1041,Sports,Cricket Bat,Puma,All Season,1315.32,21.56,"Parekh, Sibal and Shah",486
+1042,Sports,Football,Nike,All Season,2456.34,24.78,Mahajan and Sons,555
+1043,Sports,Cricket Bat,Decathlon,All Season,1318.17,27.78,Sur-Madan,247
+1044,Sports,Gym Gloves,Puma,All Season,829.75,27.03,Sharaf and Sons,273
+1045,Sports,Football,Decathlon,All Season,2413.75,18.16,Chatterjee-Thakkar,633
+1046,Sports,Gym Gloves,Skechers,All Season,570.53,24.1,Loke Inc,365
+1047,Sports,Gym Gloves,Decathlon,All Season,1066.36,25.98,"Aurora, Palan and Zacharia",293
+1048,Sports,Football,Skechers,All Season,1254.83,20.55,Maharaj-Din,380
+1049,Sports,Gym Gloves,Nike,All Season,1767.75,27.79,Majumdar-Srinivasan,1219
+1050,Sports,Gym Gloves,Skechers,All Season,1676.4,24.74,Dash-Pandit,359
+1051,Sports,Gym Gloves,Adidas,All Season,617.54,25.48,"Bhat, Pai and Jain",786
+1052,Sports,Football,Puma,All Season,1579.42,19.79,Swamy-Guha,681
+1053,Sports,Cricket Bat,Decathlon,All Season,2161.52,20.89,Malhotra and Sons,613
+1054,Sports,Gym Gloves,Adidas,All Season,807.43,26.77,Nath PLC,459
+1055,Sports,Gym Gloves,Nike,All Season,2233.41,19.03,Gandhi-Sampath,985
+1056,Sports,Cricket Bat,Decathlon,All Season,2727.5,27.13,Grewal LLC,397
+1057,Sports,Cricket Bat,Adidas,All Season,1992.08,23.63,Bhasin-Deshpande,489
+1058,Sports,Cricket Bat,Puma,All Season,2280.29,26.79,Narasimhan-Dayal,411
+1059,Sports,Football,Nike,All Season,1754.66,20.37,"Madan, Roy and Arora",285
+1060,Sports,Cricket Bat,Decathlon,All Season,4741.46,25.96,Goyal-Atwal,1109
+1061,Sports,Gym Gloves,Nike,All Season,598.48,27.91,"Basak, D’Alia and Balasubramanian",536
+1062,Sports,Football,Decathlon,All Season,1596.43,20.81,"Deep, Ratta and Dhingra",743
+1063,Sports,Football,Decathlon,All Season,2112.6,19.98,Kamdar Ltd,1028
+1064,Sports,Gym Gloves,Adidas,All Season,1227.16,21.36,Swamy-Solanki,100
+1065,Sports,Cricket Bat,Decathlon,All Season,3149.8,18.77,Munshi-Toor,99
+1066,Sports,Gym Gloves,Nike,All Season,1327.42,23.19,"Seth, Joshi and Sampath",114
+1067,Sports,Cricket Bat,Decathlon,All Season,2014.72,20.23,"Wason, Padmanabhan and Saha",630
+1068,Sports,Football,Nike,All Season,1036.85,26.67,Kala Group,79
+1069,Sports,Gym Gloves,Adidas,All Season,1719.73,25.12,Bhardwaj-Sur,1183
+1070,Sports,Cricket Bat,Nike,All Season,2969.32,21.14,Rattan-Trivedi,1007
+1071,Sports,Cricket Bat,Skechers,All Season,2080.54,26.26,Manne PLC,468
+1072,Sports,Football,Nike,All Season,936.03,22.52,Ratta LLC,883
+1073,Sports,Cricket Bat,Nike,All Season,2378.14,27.45,"Anne, Rout and Dhawan",445
+1074,Sports,Gym Gloves,Adidas,All Season,912.45,27.18,Bahri Group,994
+1075,Sports,Cricket Bat,Nike,All Season,2378.17,20.86,"Goyal, Bath and Sharma",1338
+1076,Sports,Gym Gloves,Nike,All Season,828.07,20.85,Walla-Joshi,465
+1077,Sports,Football,Nike,All Season,1165.17,24.11,"Buch, Cherian and Raju",362
+1078,Sports,Cricket Bat,Nike,All Season,2418.11,24.7,Parmar and Sons,422
+1079,Sports,Football,Skechers,All Season,955.8,21.69,Ratti Group,262
+1080,Sports,Cricket Bat,Puma,All Season,3746.42,22.63,Bains Inc,1145
+1081,Sports,Football,Nike,All Season,2177.08,21.11,Issac-Raja,1140
+1082,Sports,Cricket Bat,Puma,All Season,3552.95,18.1,Krishnamurthy LLC,622
+1083,Sports,Football,Puma,All Season,2674.65,22.99,"Thaman, Lalla and Murty",1575
+1084,Sports,Football,Nike,All Season,604.25,20.14,Nair-Kanda,563
+1085,Sports,Cricket Bat,Decathlon,All Season,4040.41,27.86,Jha PLC,92
+1086,Sports,Cricket Bat,Adidas,All Season,2621.82,22.45,"Chana, Yogi and Kapadia",473
+1087,Sports,Football,Adidas,All Season,2066.98,25.9,Jani-Doctor,361
+1088,Sports,Cricket Bat,Adidas,All Season,4193.04,22.71,"De, Munshi and Bhatnagar",1014
+1089,Sports,Gym Gloves,Decathlon,All Season,1817.03,24.67,"Wali, Deep and Rout",1513
+1090,Sports,Football,Nike,All Season,1402.85,24.28,Varkey and Sons,720
+1091,Sports,Football,Puma,All Season,3192.76,19.56,Palla Ltd,196
+1092,Sports,Football,Adidas,All Season,582.19,22.01,Gopal PLC,333
+1093,Sports,Football,Adidas,All Season,1275.57,22.91,"Grover, Sarin and Taneja",612
+1094,Sports,Gym Gloves,Decathlon,All Season,1041.37,27.55,Sekhon-Sathe,1474
+1095,Sports,Cricket Bat,Adidas,All Season,4669.64,27.82,Sarraf Ltd,786
+1096,Sports,Football,Nike,All Season,2505.93,21.97,Behl-Mand,991
+1097,Sports,Gym Gloves,Adidas,All Season,969.82,22.42,Dey Ltd,1028
+1098,Sports,Gym Gloves,Decathlon,All Season,924.63,22.64,"Tank, Sekhon and Walla",295
+1099,Sports,Gym Gloves,Puma,All Season,880.88,19.67,Soman LLC,71
+1100,Sports,Football,Nike,All Season,2116.16,21.11,Mitra-Chowdhury,813
+1101,Sports,Football,Adidas,All Season,1338.34,26.58,Grover Ltd,440
+1102,Sports,Cricket Bat,Nike,All Season,1205.22,24.3,"Palan, Bajaj and Chandran",122
+1103,Sports,Football,Nike,All Season,2595.5,20.17,"Dubey, Kala and Desai",40
+1104,Sports,Cricket Bat,Nike,All Season,2693.84,24.45,Dutt Ltd,93
+1105,Sports,Cricket Bat,Nike,All Season,1921.74,20.1,"Johal, Kaur and Yogi",582
+1106,Sports,Football,Adidas,All Season,2045.35,24.65,"Dey, Raval and Pall",649
+1107,Sports,Gym Gloves,Puma,All Season,1409.19,25.58,Kurian-Boase,132
+1108,Sports,Gym Gloves,Nike,All Season,796.87,21.85,Chaudhari-More,846
+1109,Sports,Gym Gloves,Skechers,All Season,795.24,19.99,"Agate, Gandhi and Rajagopalan",737
+1110,Sports,Cricket Bat,Adidas,All Season,2784.24,20.26,Singhal Inc,573
+1111,Sports,Gym Gloves,Decathlon,All Season,1182.8,19.27,"Nigam, Vaidya and Talwar",606
+1112,Sports,Cricket Bat,Adidas,All Season,2761.65,27.77,Goda PLC,589
+1113,Sports,Gym Gloves,Decathlon,All Season,1692.86,23.19,Sankaran Group,175
+1114,Sports,Football,Skechers,All Season,1822.26,18.85,"Pau, Pillay and Goda",635
+1115,Sports,Cricket Bat,Nike,All Season,3471.24,23.87,Ray Group,66
+1116,Sports,Cricket Bat,Adidas,All Season,3306.8,20.84,Shanker-Kar,1093
+1117,Sports,Gym Gloves,Puma,All Season,1043.56,19.08,Date Group,1293
+1118,Sports,Football,Skechers,All Season,1770.13,22.86,"Bhatia, Sha and Suri",1074
+1119,Sports,Gym Gloves,Adidas,All Season,1471.01,23.53,"Radhakrishnan, Kannan and Pandit",596
+1120,Sports,Gym Gloves,Puma,All Season,496.77,19.2,Shankar PLC,119
+1121,Sports,Gym Gloves,Adidas,All Season,1223.06,18.14,"Borde, Misra and Bhakta",94
+1122,Sports,Cricket Bat,Puma,All Season,2241.78,19.99,"Chander, Mander and Sagar",58
+1123,Sports,Gym Gloves,Puma,All Season,1737.04,24.64,Sarna-Sarna,382
+1124,Sports,Cricket Bat,Skechers,All Season,3747.45,22.31,"Taneja, Gandhi and Kari",546
+1125,Sports,Gym Gloves,Puma,All Season,1421.25,26.88,"Sura, Sridhar and Narayan",180
+1126,Sports,Cricket Bat,Nike,All Season,2217.21,22.94,Natt-Dugal,791
+1127,Sports,Football,Adidas,All Season,790.29,27.1,"Sethi, Sane and Parmar",589
+1128,Sports,Gym Gloves,Skechers,All Season,1975.96,19.16,Ramesh Ltd,592
+1129,Sports,Gym Gloves,Puma,All Season,835.24,22.38,Som-Aggarwal,135
+1130,Sports,Cricket Bat,Nike,All Season,3033.66,22.18,"Balay, Luthra and Varma",275
+1131,Sports,Gym Gloves,Decathlon,All Season,1219.49,25.16,Sankar PLC,711
+1132,Sports,Gym Gloves,Puma,All Season,792.27,22.39,Suresh-Barad,1428
+1133,Sports,Cricket Bat,Adidas,All Season,2445.97,18.92,Shah-Swamy,867
+1134,Sports,Cricket Bat,Nike,All Season,2795.0,21.54,Bhatia LLC,859
+1135,Sports,Football,Nike,All Season,2313.26,27.8,"Kar, Shah and Nair",439
+1136,Sports,Football,Skechers,All Season,818.97,27.66,Ahuja-Madan,562
+1137,Sports,Football,Puma,All Season,1751.43,18.3,Raj Inc,332
+1138,Sports,Football,Nike,All Season,2116.2,22.38,"Butala, Tailor and Padmanabhan",493
+1139,Sports,Gym Gloves,Nike,All Season,1161.11,25.59,Bal Ltd,315
+1140,Sports,Football,Nike,All Season,2267.13,18.31,Bhatti PLC,695
+1141,Sports,Football,Puma,All Season,1114.91,18.0,Naik Group,492
+1142,Sports,Gym Gloves,Adidas,All Season,738.08,25.76,Bath-Joshi,496
+1143,Sports,Cricket Bat,Decathlon,All Season,4215.99,23.61,Srinivas Ltd,697
+1144,Sports,Football,Skechers,All Season,1908.43,20.19,Zacharia-Karpe,109
+1145,Sports,Gym Gloves,Adidas,All Season,1226.69,20.93,Doshi-Vig,1285
+1146,Sports,Football,Nike,All Season,2062.46,26.62,Narayan-Kaur,218
+1147,Sports,Football,Decathlon,All Season,1085.63,19.64,"Krishna, Kothari and Upadhyay",1078
+1148,Sports,Football,Puma,All Season,1958.97,19.34,"Dhar, Mann and Taneja",136
+1149,Sports,Cricket Bat,Nike,All Season,1534.32,18.31,"Tiwari, Bhasin and Palla",40
+1150,Sports,Cricket Bat,Nike,All Season,3736.28,21.35,Ram-Kuruvilla,685
+1151,Sports,Football,Nike,All Season,2203.95,23.49,"Brar, Babu and Narayan",385
+1152,Sports,Gym Gloves,Puma,All Season,548.47,19.01,"Kamdar, Agarwal and Konda",411
+1153,Sports,Cricket Bat,Puma,All Season,1512.43,21.94,"Sridhar, Tiwari and Choudhury",1147
+1154,Sports,Cricket Bat,Skechers,All Season,1892.13,26.34,Hegde LLC,72
+1155,Sports,Cricket Bat,Adidas,All Season,3580.04,25.32,Srinivas-Sinha,532
+1156,Sports,Cricket Bat,Nike,All Season,3339.67,25.02,"Bahri, Prabhakar and Deol",672
+1157,Sports,Gym Gloves,Nike,All Season,1961.91,18.92,"Krishna, Dutta and Varty",328
+1158,Sports,Gym Gloves,Adidas,All Season,794.4,27.62,"Rana, Venkatesh and Dhaliwal",1073
+1159,Sports,Football,Adidas,All Season,1575.08,18.58,"Narayanan, Rai and Brar",133
+1160,Sports,Cricket Bat,Adidas,All Season,3019.6,23.67,Memon-Nagy,1036
+1161,Sports,Gym Gloves,Puma,All Season,1124.37,22.98,Deo Group,395
+1162,Sports,Gym Gloves,Nike,All Season,740.99,22.65,"Gade, Dugar and Bobal",1115
+1163,Sports,Gym Gloves,Adidas,All Season,2181.63,24.4,Kannan-Ganesan,923
+1164,Sports,Football,Puma,All Season,1848.9,26.01,Warrior-Kale,40
+1165,Sports,Gym Gloves,Nike,All Season,1410.72,21.11,Sood-Bava,1277
+1166,Sports,Football,Skechers,All Season,2745.35,20.78,"Rau, Purohit and Patel",49
+1167,Sports,Cricket Bat,Puma,All Season,1726.04,19.72,Vala-Varma,1091
+1168,Sports,Football,Nike,All Season,1209.47,27.44,Prakash-Patel,535
+1169,Sports,Football,Nike,All Season,1091.82,18.51,"Subramanian, Chahal and Rai",161
+1170,Sports,Cricket Bat,Nike,All Season,2090.11,18.02,Bath and Sons,110
+1171,Sports,Gym Gloves,Adidas,All Season,1642.42,27.79,Bawa-Mitra,136
+1172,Sports,Football,Skechers,All Season,1874.22,20.47,Tata-Badal,1352
+1173,Sports,Football,Skechers,All Season,1837.16,27.67,Kohli Inc,643
+1174,Sports,Football,Nike,All Season,1747.86,27.29,Chokshi Group,694
+1175,Sports,Gym Gloves,Decathlon,All Season,1576.28,23.97,"Dixit, Dutt and Puri",1197
+1176,Sports,Cricket Bat,Puma,All Season,2150.65,24.01,"Dube, Shenoy and Bhatia",51
+1177,Sports,Football,Skechers,All Season,1218.99,25.41,Chaudhry and Sons,644
+1178,Sports,Football,Nike,All Season,2496.05,22.16,Kala-Madan,507
+1179,Sports,Cricket Bat,Nike,All Season,3350.17,18.28,Borra-Balan,288
+1180,Sports,Gym Gloves,Nike,All Season,1452.35,23.64,Banik-Rattan,676
+1181,Sports,Football,Puma,All Season,3200.45,22.02,"Dyal, Dhawan and Bhattacharyya",395
+1182,Sports,Cricket Bat,Nike,All Season,4065.35,21.99,Krish Inc,1036
+1183,Sports,Football,Skechers,All Season,2381.04,27.83,Chadha-Jayaraman,442
+1184,Sports,Cricket Bat,Nike,All Season,3343.71,21.27,"Cherian, Toor and Gill",356
+1185,Sports,Cricket Bat,Nike,All Season,3293.36,25.67,Narula-Anand,496
+1186,Sports,Football,Nike,All Season,3051.68,22.09,Manne-Goda,562
+1187,Sports,Football,Puma,All Season,2380.57,18.47,Gola-Thaman,46
+1188,Sports,Football,Adidas,All Season,1450.85,27.39,Deshpande-Samra,1234
+1189,Sports,Gym Gloves,Adidas,All Season,354.29,24.35,Krishna-Gandhi,631
+1190,Sports,Football,Nike,All Season,2383.89,21.26,Kunda-Nath,905
+1191,Sports,Football,Nike,All Season,2509.91,20.16,Hari-Sathe,1024
+1192,Sports,Football,Nike,All Season,1628.14,24.73,"Purohit, Bhargava and Anand",1421
+1193,Sports,Cricket Bat,Nike,All Season,2449.89,21.38,"Wason, Master and Kant",244
+1194,Sports,Football,Puma,All Season,1103.08,21.78,Gokhale LLC,136
+1195,Sports,Cricket Bat,Puma,All Season,1194.85,27.47,Sidhu and Sons,807
+1196,Sports,Football,Decathlon,All Season,2136.39,25.42,"Yadav, Ratta and Bawa",88
+1197,Sports,Cricket Bat,Nike,All Season,1575.94,26.77,"Rajan, Bhasin and Lall",637
+1198,Sports,Gym Gloves,Nike,All Season,1294.87,25.55,Pant-Bhakta,293
+1199,Sports,Football,Nike,All Season,2277.63,27.47,Garde-Om,207
+1200,Sports,Gym Gloves,Adidas,All Season,1101.46,25.71,Bail Inc,85

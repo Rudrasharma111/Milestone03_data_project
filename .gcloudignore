@@ -1,0 +1,16 @@
+.git/
+.gitignore
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dbt_project/logs/
+dbt_project/target/
+ingestion/__pycache__/
+ingestion/logs/
+ingestion/venv/
+.vscode/
+.idea/
+*.md
+M3_Project_Submission.zip

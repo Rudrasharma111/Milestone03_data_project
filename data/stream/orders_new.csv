@@ -1,0 +1,36 @@
+order_id,customer_id,product_id,region_id,campaign_id,order_date,quantity,unit_price,discount,shipping_cost,payment_method,delivery_days,returned_flag,order_status,warehouse_region,customer_rating,customer_city,customer_state
+ORD23977,632,238,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD23978,476,415,35,,2026-05-30,1,7447.8,13.06,245.3,Credit Card,6,0,Delivered,East Hub,3,Tiruppur,Kerala
+ORD23979,1831,140,32,,2026-05-30,1,38989.72,24.13,225.66,Credit Card,2,0,Delivered,North Hub,1,Patiala,Karnataka
+ORD23980,377,425,5,,2026-05-30,2,4235.72,26.81,184.21,COD,6,0,Delivered,North Hub,1,Bijapur,Punjab
+ORD23981,3630,392,25,,2026-05-30,1,3412.03,25.39,187.46,Net Banking,6,0,Delivered,South Hub,1,Bikaner,Delhi
+ORD23982,3117,263,16,,2026-05-30,1,3330.04,26.65,268.55,COD,2,1,Returned,South Hub,4,Mira-Bhayandar,Rajasthan
+ORD23983,2775,292,41,,2026-05-30,1,5266.06,20.64,169.55,Credit Card,7,0,Delivered,East Hub,4,Agartala,Karnataka
+ORD23983,2662,292,41,,2026-05-30,1,5212.27,20.64,169.55,Credit Card,7,0,Delivered,East Hub,4,Chandrapur,Delhi
+ORD23984,365,895,15,,2026-05-30,1,21378.53,18.74,478.94,COD,3,0,Delivered,South Hub,5,Kulti,Karnataka
+ORD23985,3244,349,36,,2026-05-30,1,3146.56,22.32,427.56,Net Banking,3,0,Delivered,East Hub,4,Shimla,Gujarat
+ORD23986,926,339,30,,2026-05-30,1,54882.35,27.84,413.02,UPI,5,0,Delivered,North Hub,5,Bhavnagar,Karnataka
+ORD23987,884,381,25,,2026-05-30,1,2494.36,13.77,273.86,UPI,4,0,Delivered,North Hub,5,Ramagundam,Karnataka
+ORD23988,2524,413,18,,2026-05-30,2,3137.14,17.62,226.14,COD,7,0,Delivered,West Hub,3,Ambala,Uttar Pradesh
+ORD23989,3590,319,10,,2026-05-30,1,37340.42,22.93,340.97,COD,7,0,Delivered,North Hub,5,Davanagere,Karnataka
+ORD23990,2986,274,34,,2026-05-30,1,12577.35,27.7,279.29,Net Banking,7,0,Delivered,West Hub,2,Tadepalligudem,Uttar Pradesh
+ORD23991,3319,511,38,,2026-05-30,1,1822.45,20.81,398.29,UPI,6,0,Delivered,South Hub,3,Mau,Uttar Pradesh
+ORD23992,2025,854,30,,2026-05-30,1,4427.81,10.42,458.19,Credit Card,2,0,Delivered,South Hub,4,Giridih,Maharashtra
+ORD23993,261,987,41,,2026-05-30,1,25215.55,15.43,235.47,Credit Card,6,0,Delivered,South Hub,4,Kota,Uttar Pradesh
+ORD23994,1968,341,41,,2026-05-30,1,4789.09,18.75,465.09,Net Banking,5,0,Delivered,West Hub,4,Narasaraopet,Uttar Pradesh
+ORD23995,1156,310,22,,2026-05-30,1,2942.64,24.14,144.92,Credit Card,4,0,Delivered,North Hub,1,Siliguri,Maharashtra
+ORD23996,3476,601,20,,2026-05-30,1,2050.66,22.13,310.52,Credit Card,4,0,Delivered,West Hub,3,Kirari Suleman Nagar,Karnataka
+ORD23997,312,392,6,,2026-05-30,1,3596.41,18.28,141.31,COD,5,0,Delivered,South Hub,1,Nadiad,West Bengal
+ORD23998,393,297,4,,2026-05-30,1,33497.2,23.42,342.48,COD,6,0,Delivered,North Hub,2,Ballia,Punjab
+ORD23999,3651,772,43,,2026-05-30,1,4026.22,12.1,418.95,UPI,7,1,Returned,North Hub,1,Rajpur Sonarpur,Odisha
+ORD24000,2233,206,15,,2026-05-30,3,34940.37,23.97,334.28,Credit Card,4,0,Delivered,North Hub,4,Erode,Punjab
+ORD_BAD_S01,,238,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S02,632,238,26,,2026-05-30,0,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S03,632,238,26,,2026-05-30,-1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S04,abc,238,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S05,632,238,26,,30-05-2026,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+,632,238,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S07,632,238,26,,2026-05-30,1,N/A,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S08,632,238,xyz,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S09,632,,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
+ORD_BAD_S10,632,238,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra

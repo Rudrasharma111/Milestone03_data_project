@@ -1,0 +1,22 @@
+select
+    order_id,
+    customer_id,
+    product_id,
+    region_id,
+    campaign_id,
+    order_date,
+    quantity,
+    unit_price,
+    discount,
+    shipping_cost,
+    trim(payment_method) as payment_method,
+    delivery_days,
+    returned_flag,
+    trim(order_status) as order_status,
+    trim(warehouse_region) as warehouse_region,
+    customer_rating,
+    trim(customer_city) as customer_city,
+    trim(customer_state) as customer_state,
+    'stream' as source_system,
+    ingestion_timestamp as loaded_at
+from {{ source('raw', 'orders_stream') }}

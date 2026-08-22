@@ -1,0 +1,13 @@
+ingestion/.env
+venv/
+logs/
+__pycache__/
+ingestion/__pycache__/
+ingestion/logs/
+ingestion/sent_admission_ids.json
+*.zip
+target/
+dbt_packages/
+logs/
+.env
+dbt_internal_packages/
