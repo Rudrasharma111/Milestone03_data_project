@@ -4,7 +4,7 @@ select
     trim(subcategory) as subcategory,
     trim(brand) as brand,
     season_tag,
-    mrp as list_price,          -- renamed for clarity in the reporting layer
+    mrp as list_price,         
     profit_margin_pct,
     trim(supplier_name) as supplier_name,
     stock_level

@@ -10,7 +10,6 @@ import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
 from apache_beam.transforms.window import FixedWindows
 from apache_beam.io.gcp.bigquery import WriteToBigQuery, BigQueryDisposition
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 logger = logging.getLogger("dataflow_pipeline")
 
@@ -64,22 +63,8 @@ ERRORS_SCHEMA = {
         {"name": "logged_at", "type": "TIMESTAMP"},
     ]
 }
-
-
 class ParseAndValidate(beam.DoFn):
-    """Splits each Pub/Sub message into a 'good' or 'bad' tagged output.
-
-    Also guards against SILENT DATA LOSS from Beam's windowing: if an event
-    arrives after the window + allowed_lateness has already closed, Beam's
-    trigger machinery drops it internally with no record of it anywhere.
-    To avoid that, we check lateness here (before windowing) using the
-    event_timestamp we already have in the payload, and route any event
-    that would be dropped into the same error table instead -- so every
-    message ends up in exactly one place: orders_stream or orders_stream_errors.
-    """
-
     MAX_ALLOWED_LATENESS = WINDOW_SECONDS + ALLOWED_LATENESS_SECONDS
-
     def process(self, message):
         raw_text = message.decode("utf-8") if isinstance(message, bytes) else str(message)
         try:
@@ -138,13 +123,6 @@ class KeyByOrderId(beam.DoFn):
 
 
 class KeepFirstPerKey(beam.DoFn):
-    """Within a window, if the same order_id shows up more than once
-    (e.g. a publisher retry), keep only one copy. With DISCARDING
-    accumulation mode and repeated (early/late) trigger firings, a given
-    key can legitimately produce an EMPTY group on a firing where no new
-    element arrived since the last firing for that key -- so this must
-    tolerate zero elements instead of assuming at least one."""
-
     def process(self, element):
         order_id, records = element
         records = list(records)
@@ -187,11 +165,9 @@ def run(argv=None):
             subscription=subscription_path,
             timestamp_attribute="event_timestamp",
         )
-
         parsed = messages | "ParseAndValidate" >> beam.ParDo(ParseAndValidate()).with_outputs(
             "good", "bad"
         )
-
         good = (
             parsed.good
             | "WindowIntoFixed" >> beam.WindowInto(
@@ -207,14 +183,12 @@ def run(argv=None):
             | "GroupByOrderId" >> beam.GroupByKey()
             | "KeepFirstPerKey" >> beam.ParDo(KeepFirstPerKey())
         )
-
         good | "WriteGoodToBQ" >> WriteToBigQuery(
             orders_table,
             schema=ORDERS_STREAM_SCHEMA,
             write_disposition=BigQueryDisposition.WRITE_APPEND,
             create_disposition=BigQueryDisposition.CREATE_NEVER,
         )
-
         parsed.bad | "WriteBadToBQ" >> WriteToBigQuery(
             errors_table,
             schema=ERRORS_SCHEMA,

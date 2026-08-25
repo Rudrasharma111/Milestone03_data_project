@@ -34,5 +34,4 @@ ORD_BAD_S07,632,238,26,,2026-05-30,1,N/A,21.17,54.45,Net Banking,7,0,Delivered,W
 ORD_BAD_S08,632,238,xyz,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
 ORD_BAD_S09,632,,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,Delivered,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
 ORD_BAD_S10,632,238,26,,2026-05-30,1,4837.64,21.17,54.45,Net Banking,7,0,,West Hub,2,Sangli-Miraj & Kupwad,Maharashtra
-ORD_LATE_TEST_01,1001,501,3,,2026-08-22,2,499.0,0.1,49.0,UPI,3,0,Delivered,North,4,Indore,MP
-ORD_LATE_TES8T_01,1001,501,3,,2026-08-22,2,499.0,0.1,49.0,UPI,3,0,Delivered,North,4,Indore,MP
+

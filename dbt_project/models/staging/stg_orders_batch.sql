@@ -18,5 +18,6 @@ select
     trim(customer_city) as customer_city,
     trim(customer_state) as customer_state,
     'batch' as source_system,
+    cast(null as timestamp) as event_timestamp,
     ingestion_timestamp as loaded_at
 from {{ source('raw', 'orders_batch') }}

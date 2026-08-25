@@ -6,6 +6,7 @@ import csv
 import json
 import logging
 import hashlib
+from collections import defaultdict
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -117,10 +118,52 @@ def validate_orders(rows):
 
 
 def deduplicate_orders(rows):
-    seen = {}
+   
+    if not rows:
+        return [], []
+
+    groups = defaultdict(list)
     for row in rows:
-        seen[row["order_id"]] = row
-    return list(seen.values())
+        groups[row["order_id"]].append(row)
+
+    business_fields = [k for k in rows[0].keys() if k != "order_id"]
+
+    good, collision_errors = [], []
+    for order_id, group in groups.items():
+        if len(group) == 1:
+            good.append(group[0])
+            continue
+
+        first = group[0]
+        is_true_duplicate = all(
+            all(r[f] == first[f] for f in business_fields) for r in group
+        )
+
+        if is_true_duplicate:
+            good.append(first)
+            continue
+
+        # Genuine order_id collision: not the same order re-arriving.
+        good.append(first)
+        for conflicting in group[1:]:
+            raw_line = ",".join(str(v) for v in conflicting.values())
+            collision_errors.append({
+                "error_id": _error_row_id(raw_line),
+                "raw_row": raw_line,
+                "error_reason": (
+                    f"order_id '{order_id}' collides with a different order "
+                    f"(business fields do not match) - row dropped from "
+                    f"orders_batch, first occurrence kept"
+                ),
+                "source_system": "batch",
+                "logged_at": datetime.now(timezone.utc).isoformat(),
+            })
+
+    logger.info(
+        f"Dedup: {len(good)} orders kept, "
+        f"{len(collision_errors)} order_id collisions routed to orders_batch_errors"
+    )
+    return good, collision_errors
 
 
 def write_parquet(rows, local_path):
@@ -189,8 +232,7 @@ def load_errors_to_bigquery(bad_rows, error_table):
     j = bq_client.load_table_from_json(bad_rows, stage_table, job_config=jc)
     j.result()
 
-    # was doing WRITE_APPEND directly before, kept dumping the same bad rows every re-run
-    # switched to merge on error_id so repeat runs dont keep adding the same 10 rows agian
+
     merge_sql = f"""
         MERGE `{tgt_table}` T
         USING `{stage_table}` S
@@ -260,7 +302,8 @@ def load_reference_table(name, cfg, local_folder):
 def main():
     rows = list(read_orders_csv(BATCH_INPUT_FOLDER))
     good_rows, bad_rows = validate_orders(rows)
-    good_rows = deduplicate_orders(good_rows)
+    good_rows, collision_errors = deduplicate_orders(good_rows)
+    bad_rows = bad_rows + collision_errors
 
     for row in good_rows:
         row["order_date"] = datetime.strptime(row["order_date"], "%Y-%m-%d").date()

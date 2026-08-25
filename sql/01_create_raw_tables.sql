@@ -1,6 +1,3 @@
--- =========================================================
--- RAW LAYER — exact copy of what arrived, split by source
--- =========================================================
 
 CREATE TABLE `m3-ecom.raw.orders_batch` (
     order_id STRING NOT NULL,

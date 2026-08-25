@@ -1,13 +1,85 @@
 version: 2
 
 models:
-  - name: fact_orders
+  - name: stg_orders_batch
+    description: "Batch orders data from the source system."
     columns:
       - name: order_id
+        description: "Unique ID for the order."
+        tests:
+          - not_null
+      - name: order_date
+        description: "Date when the order was placed."
+        tests:
+          - not_null
+      - name: region_id
+        description: "Source region ID. Do not use for reporting (use warehouse_region instead)."
+
+  - name: stg_orders_stream
+    description: "Real-time streaming orders data."
+    columns:
+      - name: order_id
+        description: "Unique ID for the order."
+        tests:
+          - not_null
+      - name: order_date
+        description: "Date when the order was placed."
+        tests:
+          - not_null
+
+  - name: stg_customers
+    description: "Raw customer data. Contains sensitive personal information (PII)."
+    columns:
+      - name: customer_id
+        description: "Unique ID for the customer."
         tests:
           - not_null
           - unique
+      - name: customer_name
+        description: "Full name of the customer (PII)."
+      - name: city
+        description: "City where the customer lives (PII)."
+      - name: state
+        description: "State where the customer lives (PII)."
+
+  - name: stg_products
+    description: "Raw product details."
+    columns:
+      - name: product_id
+        description: "Unique ID for the product."
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_campaigns
+    description: "Raw marketing campaign data."
+    columns:
+      - name: campaign_id
+        description: "Unique ID for the campaign."
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_orders
+    description: "Main facts table containing all order details."
+    columns:
+      - name: order_id
+        description: "Unique ID for the order."
+        tests:
+          - not_null
+          - unique
+      - name: order_date
+        description: "Date of the order. Links to the dim_date table."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+      - name: region_id
+        description: "Raw region ID. Kept only for future mapping."
       - name: customer_key
+        description: "Links to the dim_customer table."
         tests:
           - not_null
           - relationships:
@@ -15,6 +87,7 @@ models:
                 to: ref('dim_customer')
                 field: customer_key
       - name: product_key
+        description: "Links to the dim_product table."
         tests:
           - not_null
           - relationships:
@@ -22,39 +95,59 @@ models:
                 to: ref('dim_product')
                 field: product_key
       - name: campaign_key
+        description: "Links to the dim_campaign table (if the order came from a campaign)."
         tests:
           - relationships:
               arguments:
                 to: ref('dim_campaign')
                 field: campaign_key
       - name: revenue
+        description: "Total money made from this order."
         tests:
           - not_null
 
   - name: dim_customer
+    description: "Customer dimension table. Contains sensitive personal information (PII)."
+    config:
+      meta:
+        owner: "Data Engineering Team"
+        data_sensitivity: "Internal"
+        contains_pii: true
     columns:
       - name: customer_key
+        description: "Primary key for the customer table."
         tests:
           - not_null
           - unique
+      - name: customer_name
+        description: "Full name of the customer (PII)."
+        config:
+          meta:
+            pii_category: "person_name"
 
   - name: dim_product
+    description: "Product dimension table. A complete list of all products."
     columns:
       - name: product_key
+        description: "Primary key for the product table."
         tests:
           - not_null
           - unique
 
   - name: dim_campaign
+    description: "Campaign dimension table. A list of all marketing campaigns."
     columns:
       - name: campaign_key
+        description: "Primary key for the campaign table."
         tests:
           - not_null
           - unique
 
   - name: dim_date
+    description: "Date dimension table used for time-based reporting."
     columns:
       - name: date_key
+        description: "Primary key for the date table."
         tests:
           - not_null
           - unique

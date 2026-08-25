@@ -1,6 +1,6 @@
 with date_spine as (
     select date_add(date('2015-01-01'), interval x day) as full_date
-    from unnest(generate_array(0, 4000)) as x
+    from unnest(generate_array(0, 6000)) as x
 )
 
 select

@@ -16,6 +16,10 @@ clean-targets:
 
 models:
   dbt_project:
+    +persist_docs:
+      relation: true
+      columns: true
+      
     staging:
       +materialized: view
       +schema: processed
