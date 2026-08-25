@@ -873,19 +873,3 @@ to end.
 
 ---
 
-## 22. Known gaps and honest notes
-
-- **Avro is not implemented.** Only Parquet is used for batch files. This
-  satisfies the base requirement ("Avro or Parquet") but leaves the stretch
-  goal of supporting both formats incomplete.
-- **Column-level security** is currently demonstrated on
-  `dim_customer.customer_name` (a PII tag), rather than on the financial
-  columns (`revenue`, `unit_price`) that an earlier draft of the internal
-  commands doc had originally scoped. Both are valid demonstrations of
-  column-level security; if a reviewer specifically expects the financial
-  columns to be tagged, that policy tag still needs to be added.
-- `reporting.rpt_sales_summary` shows `row_count: 0` in
-  `INFORMATION_SCHEMA.__TABLES__` metadata. This is expected and normal for
-  a BigQuery **view** (views do not materialize rows on disk) - it is not a
-  sign that the view is broken. The Looker Studio dashboard querying it
-  directly confirms it returns live data.
